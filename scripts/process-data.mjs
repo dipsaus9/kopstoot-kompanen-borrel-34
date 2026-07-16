@@ -34,12 +34,28 @@ const raw = fs.readFileSync(CSV, "utf8");
 const parsed = Papa.parse(raw, { skipEmptyLines: true });
 const rows = parsed.data.slice(1); // drop header row
 const clean = (s) => (s ?? "").toString().trim();
-const records = rows
-  .map((r) => r.map(clean))
-  .filter((r) => r[C.NAME] && r[C.NAME] !== "");
+
+// Nep-inzendingen die we volledig uit de wrapped houden: hun antwoorden komen
+// nergens terug (geen stats, geen quotes, geen kaart, niet meegeteld).
+const EXCLUDED_NAMES = [/darth\s*vader/i];
+
+const allRecords = rows.map((r) => r.map(clean)).filter((r) => r[C.NAME] && r[C.NAME] !== "");
+const excluded = allRecords.filter((r) => EXCLUDED_NAMES.some((re) => re.test(r[C.NAME])));
+const records = allRecords.filter((r) => !EXCLUDED_NAMES.some((re) => re.test(r[C.NAME])));
 
 // ---- helpers ---------------------------------------------------------------
-const firstName = (s) => clean(s).split(/[\/(]/)[0].trim();
+// Sommigen vulden een hele zin in i.p.v. een naam; die korten we handmatig in.
+const NAME_FIXES = [
+  [/vrienden noemen me wout/i, "Wout"],
+  [/^mark of h/i, "Mark"],
+];
+// "Jenny (of Jeanine...)" → Jenny · "Kiwi / Kiwinator / ..." → Kiwi
+// "Marieke, Riekje, Salmarieke" → Marieke
+const firstName = (s) => {
+  const raw = clean(s);
+  for (const [re, fix] of NAME_FIXES) if (re.test(raw)) return fix;
+  return raw.split(/[/(,]/)[0].trim();
+};
 
 // Dutch ordinal words -> number (borrel count). Jokes -> null.
 const ORDINALS = {
@@ -410,6 +426,7 @@ fs.writeFileSync(OUT, JSON.stringify(out, null, 2));
 
 // ---- console summary (for verification) -----------------------------------
 console.log(`✓ ${records.length} respondenten verwerkt → ${path.relative(ROOT, OUT)}`);
+console.log(`  uitgesloten inzendingen: ${excluded.map((r) => r[C.NAME]).join(", ") || "geen"}`);
 console.log(`  buiten de gemiddelden (kabouters): ${kabouters.join(", ") || "niemand"}`);
 console.log(`  lengte: avg ${heightStats.avg}cm over ${adults.length} kompanen, langste ${heightStats.tallest.name} ${heightStats.tallest.h}, kortste ${heightStats.shortest.name} ${heightStats.shortest.h}`);
 console.log(`  leeftijd: avg ${ageStats.avg}, oudste ${ageStats.oldest.name} ${ageStats.oldest.a}, jongste ${ageStats.youngest.name} ${ageStats.youngest.a}`);
