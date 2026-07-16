@@ -12,7 +12,7 @@ import WordCloud from "@/components/viz/WordCloud";
 import NetherlandsMap from "@/components/viz/NetherlandsMap";
 import WorldMap from "@/components/viz/WorldMap";
 import QuoteCarousel from "@/components/viz/QuoteCarousel";
-import QuoteWall from "@/components/viz/QuoteWall";
+import MottoMarquee from "@/components/viz/MottoMarquee";
 import MemeQuiz from "@/components/viz/MemeQuiz";
 import TipsDeck from "@/components/viz/TipsDeck";
 
@@ -355,8 +355,9 @@ export default function Page() {
           index={idx()}
           className="!max-w-6xl"
         >
-          <h2 className="display mb-8 text-4xl sm:text-6xl">Woorden om op te leven</h2>
-          <QuoteWall quotes={d.mottos.slice(0, 18)} accent="#7b5cff" />
+          <h2 className="display mb-3 text-4xl sm:text-6xl">Woorden om op te leven</h2>
+          <p className="mb-8 opacity-80">De levensmotto's van de kompanen, op de lopende band.</p>
+          <MottoMarquee mottos={d.mottos} />
         </Slide>
 
         {/* ───────────── VAKANTIES ───────────── */}
