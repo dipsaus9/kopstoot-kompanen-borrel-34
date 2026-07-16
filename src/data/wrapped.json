@@ -1210,9 +1210,24 @@
   },
   "count": {
     "newbies": 26,
-    "veterans": 24,
-    "totalBorrelsAttended": 582,
+    "veterans": 27,
+    "totalBorrelsAttended": 684,
     "mostExperienced": [
+      {
+        "name": "Biko",
+        "n": 34,
+        "joke": false
+      },
+      {
+        "name": "Jenny",
+        "n": 34,
+        "joke": false
+      },
+      {
+        "name": "Yvet",
+        "n": 34,
+        "joke": false
+      },
       {
         "name": "Ymke",
         "n": 29,
@@ -1221,21 +1236,6 @@
       {
         "name": "Cait",
         "n": 26,
-        "joke": false
-      },
-      {
-        "name": "Jolie",
-        "n": 26,
-        "joke": false
-      },
-      {
-        "name": "Darth vader",
-        "n": 25,
-        "joke": false
-      },
-      {
-        "name": "Giulia",
-        "n": 25,
         "joke": false
       }
     ],
@@ -1258,7 +1258,7 @@
       },
       {
         "label": "21+",
-        "count": 7
+        "count": 10
       }
     ]
   },

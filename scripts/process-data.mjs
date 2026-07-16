@@ -49,6 +49,8 @@ const ORDINALS = {
   achttiende: 18, negentiende: 19, twintigste: 20,
   "drie-en-twintigste": 23, "vijf-en-twintigste": 25, "zes-en-twintigste": 26,
   "negen-en-twintig": 29,
+  // "VIER-EN-DERTIG DUIZEND BOMMEN EN GRANATEN" = de 34e (de rest is Kuifje-vloek)
+  "vier-en-dertig": 34,
 };
 function parseCount(s) {
   const t = clean(s).toLowerCase();
