@@ -14,370 +14,461 @@
     "avgAll": 189,
     "tallest": {
       "name": "Coenraad",
-      "h": 210
+      "h": 210,
+      "grown": true
     },
     "shortest": {
       "name": "Maas",
-      "h": 95
+      "h": 95,
+      "grown": false
     },
     "tallestAdults": [
       {
         "name": "Coenraad",
-        "h": 210
+        "h": 210,
+        "grown": true
       },
       {
         "name": "Dave",
-        "h": 204
+        "h": 204,
+        "grown": true
       },
       {
         "name": "Jay",
-        "h": 204
+        "h": 204,
+        "grown": true
       },
       {
         "name": "Mark",
-        "h": 204
+        "h": 204,
+        "grown": true
       },
       {
         "name": "Milan",
-        "h": 204
+        "h": 204,
+        "grown": true
       }
     ],
     "all": [
       {
         "name": "Aebe",
-        "h": 196
+        "h": 196,
+        "grown": true
       },
       {
         "name": "Alexandra",
-        "h": 184
+        "h": 184,
+        "grown": true
       },
       {
         "name": "Amber",
-        "h": 185
+        "h": 185,
+        "grown": true
       },
       {
         "name": "Annabel",
-        "h": 182
+        "h": 182,
+        "grown": true
       },
       {
         "name": "Anouk3",
-        "h": 188
+        "h": 188,
+        "grown": true
       },
       {
         "name": "Biko",
-        "h": 200
+        "h": 200,
+        "grown": true
       },
       {
         "name": "Cait",
-        "h": 180
+        "h": 180,
+        "grown": true
       },
       {
         "name": "Carine",
-        "h": 187
+        "h": 187,
+        "grown": true
       },
       {
         "name": "Carlijn",
-        "h": 187
+        "h": 187,
+        "grown": true
       },
       {
         "name": "Cejas",
-        "h": 196
+        "h": 196,
+        "grown": true
       },
       {
         "name": "Chantie",
-        "h": 187
+        "h": 187,
+        "grown": true
       },
       {
         "name": "Chris",
-        "h": 198
+        "h": 198,
+        "grown": true
       },
       {
         "name": "Coenraad",
-        "h": 210
+        "h": 210,
+        "grown": true
       },
       {
         "name": "Damian",
-        "h": 197
+        "h": 197,
+        "grown": true
       },
       {
         "name": "Daphne",
-        "h": 180
+        "h": 180,
+        "grown": true
       },
       {
         "name": "Dave",
-        "h": 204
+        "h": 204,
+        "grown": true
       },
       {
         "name": "Denice",
-        "h": 181
+        "h": 181,
+        "grown": true
       },
       {
         "name": "Duncan",
-        "h": 198
+        "h": 198,
+        "grown": true
       },
       {
         "name": "Emma",
-        "h": 183
+        "h": 183,
+        "grown": true
       },
       {
         "name": "Esther",
-        "h": 180
+        "h": 180,
+        "grown": true
       },
       {
         "name": "Femke",
-        "h": 185
+        "h": 185,
+        "grown": true
       },
       {
         "name": "Floor",
-        "h": 190
+        "h": 190,
+        "grown": true
       },
       {
         "name": "Gerlieke",
-        "h": 186
+        "h": 186,
+        "grown": true
       },
       {
         "name": "Giulia",
-        "h": 187
+        "h": 187,
+        "grown": true
       },
       {
         "name": "Guido",
-        "h": 196
+        "h": 196,
+        "grown": true
       },
       {
         "name": "Hanna",
-        "h": 183
+        "h": 183,
+        "grown": true
       },
       {
         "name": "Hugo",
-        "h": 196
+        "h": 196,
+        "grown": true
       },
       {
         "name": "Ilona",
-        "h": 184
+        "h": 184,
+        "grown": true
       },
       {
         "name": "Inge",
-        "h": 180
+        "h": 180,
+        "grown": true
       },
       {
         "name": "Iris",
-        "h": 191
+        "h": 191,
+        "grown": true
       },
       {
         "name": "Ivo",
-        "h": 200
+        "h": 200,
+        "grown": true
       },
       {
         "name": "Jay",
-        "h": 204
+        "h": 204,
+        "grown": true
       },
       {
         "name": "jelle",
-        "h": 195
+        "h": 195,
+        "grown": true
       },
       {
         "name": "Jenny",
-        "h": 188
+        "h": 188,
+        "grown": true
       },
       {
         "name": "Jenske",
-        "h": 189
+        "h": 189,
+        "grown": true
       },
       {
         "name": "Jolie",
-        "h": 188
+        "h": 188,
+        "grown": true
       },
       {
         "name": "Joost",
-        "h": 198
+        "h": 198,
+        "grown": true
       },
       {
         "name": "Julia",
-        "h": 187
+        "h": 187,
+        "grown": true
       },
       {
         "name": "Juliee",
-        "h": 187
+        "h": 187,
+        "grown": true
       },
       {
         "name": "Juul",
-        "h": 195
+        "h": 195,
+        "grown": true
       },
       {
         "name": "Kasper",
-        "h": 201
+        "h": 201,
+        "grown": true
       },
       {
         "name": "KawaMootje",
-        "h": 182
+        "h": 182,
+        "grown": true
       },
       {
         "name": "Kelly",
-        "h": 188
+        "h": 188,
+        "grown": true
       },
       {
         "name": "Kiwi",
-        "h": 183
+        "h": 183,
+        "grown": true
       },
       {
         "name": "Liza",
-        "h": 183
+        "h": 183,
+        "grown": true
       },
       {
         "name": "Lonneke",
-        "h": 181
+        "h": 181,
+        "grown": true
       },
       {
         "name": "Lyn",
-        "h": 183
+        "h": 183,
+        "grown": true
       },
       {
         "name": "Maas",
-        "h": 95
+        "h": 95,
+        "grown": false
       },
       {
         "name": "Marieke",
-        "h": 184
+        "h": 184,
+        "grown": true
       },
       {
         "name": "Marieke",
-        "h": 185
+        "h": 185,
+        "grown": true
       },
       {
         "name": "Marinda",
-        "h": 182
+        "h": 182,
+        "grown": true
       },
       {
         "name": "Marit",
-        "h": 181
+        "h": 181,
+        "grown": true
       },
       {
         "name": "Mark",
-        "h": 203
+        "h": 203,
+        "grown": true
       },
       {
         "name": "Mark",
-        "h": 204
+        "h": 204,
+        "grown": true
       },
       {
         "name": "Marlon",
-        "h": 180
+        "h": 180,
+        "grown": true
       },
       {
         "name": "Marrrr",
-        "h": 182
+        "h": 182,
+        "grown": true
       },
       {
         "name": "mel",
-        "h": 180
+        "h": 180,
+        "grown": true
       },
       {
         "name": "Mieke",
-        "h": 182
+        "h": 182,
+        "grown": true
       },
       {
         "name": "Milan",
-        "h": 204
+        "h": 204,
+        "grown": true
       },
       {
         "name": "Milan 🥳",
-        "h": 197
+        "h": 197,
+        "grown": true
       },
       {
         "name": "Mirrin",
-        "h": 183
+        "h": 183,
+        "grown": true
       },
       {
         "name": "Nikita",
-        "h": 185
+        "h": 185,
+        "grown": true
       },
       {
         "name": "Rebecca",
-        "h": 190
+        "h": 190,
+        "grown": true
       },
       {
         "name": "Rens",
-        "h": 196
+        "h": 196,
+        "grown": true
       },
       {
         "name": "Renske",
-        "h": 193
+        "h": 193,
+        "grown": true
       },
       {
         "name": "Renzo",
-        "h": 191
+        "h": 191,
+        "grown": true
       },
       {
         "name": "Romy Jans",
-        "h": 180
+        "h": 180,
+        "grown": true
       },
       {
         "name": "Rosa",
-        "h": 183
+        "h": 183,
+        "grown": true
       },
       {
         "name": "Ruben",
-        "h": 204
+        "h": 204,
+        "grown": true
       },
       {
         "name": "Sann",
-        "h": 197
+        "h": 197,
+        "grown": true
       },
       {
         "name": "Simon",
-        "h": 201
+        "h": 201,
+        "grown": true
       },
       {
         "name": "Sophie",
-        "h": 190
+        "h": 190,
+        "grown": true
       },
       {
         "name": "Sophie",
-        "h": 189
+        "h": 189,
+        "grown": true
       },
       {
         "name": "sven",
-        "h": 204
+        "h": 204,
+        "grown": true
       },
       {
         "name": "Thijmen",
-        "h": 197
+        "h": 197,
+        "grown": true
       },
       {
         "name": "Tijn",
-        "h": 203
+        "h": 203,
+        "grown": true
       },
       {
         "name": "Veerle",
-        "h": 181
+        "h": 181,
+        "grown": true
       },
       {
         "name": "Verena",
-        "h": 184
+        "h": 184,
+        "grown": true
       },
       {
         "name": "Vincent",
-        "h": 198
+        "h": 198,
+        "grown": true
       },
       {
         "name": "Wout",
-        "h": 195
+        "h": 195,
+        "grown": true
       },
       {
         "name": "Willemijn",
-        "h": 185
+        "h": 185,
+        "grown": true
       },
       {
         "name": "Ymke",
-        "h": 180
+        "h": 180,
+        "grown": true
       },
       {
         "name": "Yvet",
-        "h": 183
+        "h": 183,
+        "grown": true
       },
       {
         "name": "Yvette",
-        "h": 190
+        "h": 190,
+        "grown": true
       }
     ],
     "histogram": [
@@ -414,351 +505,438 @@
     ]
   },
   "age": {
+    "avgBasis": 83,
     "avg": 28,
     "oldest": {
       "name": "Wout",
-      "a": 60
+      "a": 60,
+      "grown": true
     },
     "youngest": {
       "name": "Maas",
-      "a": 1
+      "a": 1,
+      "grown": false
     },
     "all": [
       {
         "name": "Aebe",
-        "a": 27
+        "a": 27,
+        "grown": true
       },
       {
         "name": "Alexandra",
-        "a": 24
+        "a": 24,
+        "grown": true
       },
       {
         "name": "Amber",
-        "a": 31
+        "a": 31,
+        "grown": true
       },
       {
         "name": "Annabel",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Anouk3",
-        "a": 29
+        "a": 29,
+        "grown": true
       },
       {
         "name": "Biko",
-        "a": 31
+        "a": 31,
+        "grown": true
       },
       {
         "name": "Cait",
-        "a": 28
+        "a": 28,
+        "grown": true
       },
       {
         "name": "Carine",
-        "a": 27
+        "a": 27,
+        "grown": true
       },
       {
         "name": "Carlijn",
-        "a": 21
+        "a": 21,
+        "grown": true
       },
       {
         "name": "Cejas",
-        "a": 25
+        "a": 25,
+        "grown": true
       },
       {
         "name": "Chantie",
-        "a": 23
+        "a": 23,
+        "grown": true
       },
       {
         "name": "Chris",
-        "a": 25
+        "a": 25,
+        "grown": true
       },
       {
         "name": "Coenraad",
-        "a": 49
+        "a": 49,
+        "grown": true
       },
       {
         "name": "Damian",
-        "a": 29
+        "a": 29,
+        "grown": true
       },
       {
         "name": "Daphne",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Dave",
-        "a": 25
+        "a": 25,
+        "grown": true
       },
       {
         "name": "Denice",
-        "a": 27
+        "a": 27,
+        "grown": true
       },
       {
         "name": "Duncan",
-        "a": 25
+        "a": 25,
+        "grown": true
       },
       {
         "name": "Emma",
-        "a": 27
+        "a": 27,
+        "grown": true
       },
       {
         "name": "Esther",
-        "a": 27
+        "a": 27,
+        "grown": true
       },
       {
         "name": "Femke",
-        "a": 25
+        "a": 25,
+        "grown": true
       },
       {
         "name": "Floor",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Gerlieke",
-        "a": 31
+        "a": 31,
+        "grown": true
       },
       {
         "name": "Giulia",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Guido",
-        "a": 25
+        "a": 25,
+        "grown": true
       },
       {
         "name": "Hanna",
-        "a": 29
+        "a": 29,
+        "grown": true
       },
       {
         "name": "Hugo",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Ilona",
-        "a": 22
+        "a": 22,
+        "grown": true
       },
       {
         "name": "Inge",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Iris",
-        "a": 22
+        "a": 22,
+        "grown": true
       },
       {
         "name": "Ivo",
-        "a": 47
+        "a": 47,
+        "grown": true
       },
       {
         "name": "Jay",
-        "a": 25
+        "a": 25,
+        "grown": true
       },
       {
         "name": "jelle",
-        "a": 21
+        "a": 21,
+        "grown": true
       },
       {
         "name": "Jenny",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Jenske",
-        "a": 30
+        "a": 30,
+        "grown": true
       },
       {
         "name": "Jolie",
-        "a": 29
+        "a": 29,
+        "grown": true
       },
       {
         "name": "Joost",
-        "a": 27
+        "a": 27,
+        "grown": true
       },
       {
         "name": "Julia",
-        "a": 36
+        "a": 36,
+        "grown": true
       },
       {
         "name": "Juliee",
-        "a": 20
+        "a": 20,
+        "grown": true
       },
       {
         "name": "Juul",
-        "a": 38
+        "a": 38,
+        "grown": true
       },
       {
         "name": "Kasper",
-        "a": 24
+        "a": 24,
+        "grown": true
       },
       {
         "name": "KawaMootje",
-        "a": 36
+        "a": 36,
+        "grown": true
       },
       {
         "name": "Kelly",
-        "a": 35
+        "a": 35,
+        "grown": true
       },
       {
         "name": "Kiwi",
-        "a": 30
+        "a": 30,
+        "grown": true
       },
       {
         "name": "Liza",
-        "a": 32
+        "a": 32,
+        "grown": true
       },
       {
         "name": "Lonneke",
-        "a": 28
+        "a": 28,
+        "grown": true
       },
       {
         "name": "Lyn",
-        "a": 23
+        "a": 23,
+        "grown": true
       },
       {
         "name": "Maas",
-        "a": 1
+        "a": 1,
+        "grown": false
       },
       {
         "name": "Marieke",
-        "a": 37
+        "a": 37,
+        "grown": true
       },
       {
         "name": "Marieke",
-        "a": 23
+        "a": 23,
+        "grown": true
       },
       {
         "name": "Marinda",
-        "a": 29
+        "a": 29,
+        "grown": true
       },
       {
         "name": "Marit",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Mark",
-        "a": 29
+        "a": 29,
+        "grown": true
       },
       {
         "name": "Mark",
-        "a": 46
+        "a": 46,
+        "grown": true
       },
       {
         "name": "Marlon",
-        "a": 31
+        "a": 31,
+        "grown": true
       },
       {
         "name": "Marrrr",
-        "a": 29
+        "a": 29,
+        "grown": true
       },
       {
         "name": "mel",
-        "a": 24
+        "a": 24,
+        "grown": true
       },
       {
         "name": "Mieke",
-        "a": 35
+        "a": 35,
+        "grown": true
       },
       {
         "name": "Milan",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Milan 🥳",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Mirrin",
-        "a": 27
+        "a": 27,
+        "grown": true
       },
       {
         "name": "Nikita",
-        "a": 24
+        "a": 24,
+        "grown": true
       },
       {
         "name": "Rebecca",
-        "a": 35
+        "a": 35,
+        "grown": true
       },
       {
         "name": "Rens",
-        "a": 24
+        "a": 24,
+        "grown": true
       },
       {
         "name": "Renske",
-        "a": 24
+        "a": 24,
+        "grown": true
       },
       {
         "name": "Renzo",
-        "a": 28
+        "a": 28,
+        "grown": true
       },
       {
         "name": "Romy Jans",
-        "a": 28
+        "a": 28,
+        "grown": true
       },
       {
         "name": "Rosa",
-        "a": 24
+        "a": 24,
+        "grown": true
       },
       {
         "name": "Ruben",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Sann",
-        "a": 20
+        "a": 20,
+        "grown": true
       },
       {
         "name": "Simon",
-        "a": 24
+        "a": 24,
+        "grown": true
       },
       {
         "name": "Sophie",
-        "a": 23
+        "a": 23,
+        "grown": true
       },
       {
         "name": "Sophie",
-        "a": 36
+        "a": 36,
+        "grown": true
       },
       {
         "name": "sven",
-        "a": 27
+        "a": 27,
+        "grown": true
       },
       {
         "name": "Thijmen",
-        "a": 22
+        "a": 22,
+        "grown": true
       },
       {
         "name": "Tijn",
-        "a": 26
+        "a": 26,
+        "grown": true
       },
       {
         "name": "Veerle",
-        "a": 28
+        "a": 28,
+        "grown": true
       },
       {
         "name": "Verena",
-        "a": 28
+        "a": 28,
+        "grown": true
       },
       {
         "name": "Vincent",
-        "a": 23
+        "a": 23,
+        "grown": true
       },
       {
         "name": "Wout",
-        "a": 60
+        "a": 60,
+        "grown": true
       },
       {
         "name": "Willemijn",
-        "a": 28
+        "a": 28,
+        "grown": true
       },
       {
         "name": "Ymke",
-        "a": 28
+        "a": 28,
+        "grown": true
       },
       {
         "name": "Yvet",
-        "a": 28
+        "a": 28,
+        "grown": true
       },
       {
         "name": "Yvette",
-        "a": 27
+        "a": 27,
+        "grown": true
       }
     ],
     "histogram": [

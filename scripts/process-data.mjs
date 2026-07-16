@@ -139,17 +139,24 @@ const isGrownUp = (r) => {
   const hOk = !Number.isFinite(h) || h >= 150;
   return ageOk && hOk;
 };
-const grownUpNames = new Set(records.filter(isGrownUp).map((r) => firstName(r[C.NAME])));
-const kabouters = records
-  .filter((r) => !isGrownUp(r))
-  .map((r) => `${firstName(r[C.NAME])} (${clean(r[C.AGE])}jr, ${clean(r[C.HEIGHT])}cm)`);
+// Per RECORD bepaald (niet op naam) — anders zou een kabouter die toevallig
+// dezelfde voornaam heeft als een volwassene alsnog in de gemiddelden glippen.
+const people = records.map((r) => ({
+  name: firstName(r[C.NAME]),
+  h: parseInt(clean(r[C.HEIGHT]), 10),
+  a: parseInt(clean(r[C.AGE]), 10),
+  grown: isGrownUp(r),
+}));
+const kabouters = people
+  .filter((p) => !p.grown)
+  .map((p) => `${p.name} (${p.a}jr, ${p.h}cm)`);
 
 // ---- HEIGHT ----------------------------------------------------------------
-const heights = records
-  .map((r) => ({ name: firstName(r[C.NAME]), h: parseInt(r[C.HEIGHT], 10) }))
-  .filter((x) => Number.isFinite(x.h) && x.h > 0);
+const heights = people
+  .filter((p) => Number.isFinite(p.h) && p.h > 0)
+  .map((p) => ({ name: p.name, h: p.h, grown: p.grown }));
 const hSorted = [...heights].sort((a, b) => b.h - a.h);
-const adults = heights.filter((x) => grownUpNames.has(x.name));
+const adults = heights.filter((x) => x.grown);
 const heightStats = {
   count: heights.length,
   avgBasis: adults.length, // hoeveel kompanen zitten er in het gemiddelde
@@ -173,12 +180,13 @@ const heightStats = {
 };
 
 // ---- AGE -------------------------------------------------------------------
-const ages = records
-  .map((r) => ({ name: firstName(r[C.NAME]), a: parseInt(clean(r[C.AGE]), 10) }))
-  .filter((x) => Number.isFinite(x.a));
+const ages = people
+  .filter((p) => Number.isFinite(p.a))
+  .map((p) => ({ name: p.name, a: p.a, grown: p.grown }));
 const aSorted = [...ages].sort((a, b) => b.a - a.a);
-const grownAges = ages.filter((x) => grownUpNames.has(x.name));
+const grownAges = ages.filter((x) => x.grown);
 const ageStats = {
+  avgBasis: grownAges.length,
   avg: Math.round(grownAges.reduce((s, x) => s + x.a, 0) / grownAges.length),
   oldest: aSorted[0],
   youngest: aSorted[aSorted.length - 1],
