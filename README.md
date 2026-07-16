@@ -28,10 +28,22 @@ leest die kolommen op positie (headers bevatten newlines/emoji) en produceert al
 afgeleide statistieken. Bij `dev` en `build` draait die automatisch (`predev`/`prebuild`).
 
 ```bash
-npm run data       # data opnieuw genereren
+npm run data       # wrapped.json opnieuw genereren uit de lokale CSV
+npm run sync       # verse antwoorden uit de Google Sheet halen + wrapped.json bijwerken
 ```
 
-Om nieuwe/gewijzigde antwoorden te verwerken: vervang `data/survey.csv` en run `npm run data`.
+**Antwoorden bijwerken (aanbevolen):**
+
+```bash
+npm run sync
+git add src/data/wrapped.json && git commit -m "Data bijgewerkt" && git push
+```
+
+`npm run sync` haalt de laatste antwoorden uit de gekoppelde Google Sheet
+(`scripts/sync-data.mjs`, sheet moet "iedereen met link mag bekijken" zijn),
+schrijft ze naar het lokale `data/survey.csv` (blijft buiten de repo) en
+regenereert `src/data/wrapped.json`. Commit die JSON → Vercel redeployt met de
+nieuwe data. Een andere sheet? Zet `SHEET_CSV_URL=<csv-url> npm run sync`.
 
 ## Slides
 

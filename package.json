@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "data": "node scripts/process-data.mjs",
+    "sync": "node scripts/sync-data.mjs && node scripts/process-data.mjs",
     "predev": "node scripts/process-data.mjs",
     "prebuild": "node scripts/process-data.mjs",
     "dev": "next dev",
