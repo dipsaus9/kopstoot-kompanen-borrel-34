@@ -362,7 +362,7 @@ const out = {
     date: "vrijdag 17 juli 2026",
     time: "15:00",
     respondents: records.length,
-    generatedNote: "Gemaakt door AI ✨",
+    generatedNote: "Gemaakt door Dipsaus ✨",
   },
   height: heightStats,
   age: ageStats,

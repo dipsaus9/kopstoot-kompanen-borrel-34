@@ -2,7 +2,7 @@
 
 Een Spotify-Wrapped-achtige scrollervaring die de pre-borrel enquête van de **34e Kopstoot Kompanen borrel** (vrijdag 17 juli 2026, parkborrel) visualiseert. Lange mensen, gekke antwoorden.
 
-Gemaakt door AI ✨
+Gemaakt door Dipsaus ✨
 
 ## Stack
 
