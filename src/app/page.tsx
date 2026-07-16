@@ -9,7 +9,7 @@ import BarList from "@/components/viz/BarList";
 import Histogram from "@/components/viz/Histogram";
 import Donut from "@/components/viz/Donut";
 import WordCloud from "@/components/viz/WordCloud";
-import DotMap from "@/components/viz/DotMap";
+import NetherlandsMap from "@/components/viz/NetherlandsMap";
 import WorldMap from "@/components/viz/WorldMap";
 import QuoteCarousel from "@/components/viz/QuoteCarousel";
 import QuoteWall from "@/components/viz/QuoteWall";
@@ -18,8 +18,6 @@ import TipsDeck from "@/components/viz/TipsDeck";
 
 const d = wrapped;
 const tuple = (c: number[]) => [c[0], c[1]] as [number, number];
-
-const NL_BOUNDS = { minLng: 3.3, maxLng: 7.1, minLat: 50.6, maxLat: 53.6 };
 
 const CLOUD_PALETTE = ["#c6ff3d", "#ff3d81", "#35e0ff", "#ffd23d", "#7b5cff", "#ff8a3d"];
 
@@ -185,16 +183,13 @@ export default function Page() {
           <p className="mb-6 opacity-80">
             {d.origin.topCity.city} is de thuisbasis met {d.origin.topCity.count} kompanen.
           </p>
-          <DotMap
-            points={d.origin.cities.map((c) => ({
+          <NetherlandsMap
+            cities={d.origin.cities.map((c) => ({
               label: c.city,
               count: c.count,
               coords: tuple(c.coords),
             }))}
-            bounds={NL_BOUNDS}
-            origin={tuple(d.origin.topCity.coords)}
             accent="#35e0ff"
-            labelTop={7}
           />
         </Slide>
 
