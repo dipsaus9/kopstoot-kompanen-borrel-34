@@ -1,0 +1,3855 @@
+{
+  "meta": {
+    "edition": 34,
+    "title": "Borrel 34 Wrapped",
+    "date": "vrijdag 17 juli 2026",
+    "time": "15:00",
+    "respondents": 85,
+    "generatedNote": "Gemaakt door AI ✨"
+  },
+  "height": {
+    "count": 85,
+    "avg": 190,
+    "avgAll": 189,
+    "tallest": {
+      "name": "Coenraad",
+      "h": 210
+    },
+    "shortest": {
+      "name": "Maas",
+      "h": 95
+    },
+    "tallestAdults": [
+      {
+        "name": "Coenraad",
+        "h": 210
+      },
+      {
+        "name": "Dave",
+        "h": 204
+      },
+      {
+        "name": "Jay",
+        "h": 204
+      },
+      {
+        "name": "Mark of hé lange",
+        "h": 204
+      },
+      {
+        "name": "Milan",
+        "h": 204
+      }
+    ],
+    "all": [
+      {
+        "name": "Aebe",
+        "h": 196
+      },
+      {
+        "name": "Alexandra",
+        "h": 184
+      },
+      {
+        "name": "Amber",
+        "h": 185
+      },
+      {
+        "name": "Annabel",
+        "h": 182
+      },
+      {
+        "name": "Anouk3",
+        "h": 188
+      },
+      {
+        "name": "Biko",
+        "h": 200
+      },
+      {
+        "name": "Cait",
+        "h": 180
+      },
+      {
+        "name": "Carine",
+        "h": 187
+      },
+      {
+        "name": "Carlijn",
+        "h": 187
+      },
+      {
+        "name": "Cejas",
+        "h": 196
+      },
+      {
+        "name": "Chantie",
+        "h": 187
+      },
+      {
+        "name": "Chris",
+        "h": 198
+      },
+      {
+        "name": "Coenraad",
+        "h": 210
+      },
+      {
+        "name": "Damian",
+        "h": 197
+      },
+      {
+        "name": "Daphne",
+        "h": 180
+      },
+      {
+        "name": "Darth vader",
+        "h": 202
+      },
+      {
+        "name": "Dave",
+        "h": 204
+      },
+      {
+        "name": "Denice",
+        "h": 181
+      },
+      {
+        "name": "Duncan",
+        "h": 198
+      },
+      {
+        "name": "Emma",
+        "h": 183
+      },
+      {
+        "name": "Esther",
+        "h": 180
+      },
+      {
+        "name": "Femke",
+        "h": 185
+      },
+      {
+        "name": "Floor",
+        "h": 190
+      },
+      {
+        "name": "Gerlieke",
+        "h": 186
+      },
+      {
+        "name": "Giulia",
+        "h": 187
+      },
+      {
+        "name": "Guido",
+        "h": 196
+      },
+      {
+        "name": "Hanna",
+        "h": 183
+      },
+      {
+        "name": "Hugo",
+        "h": 196
+      },
+      {
+        "name": "Ilona",
+        "h": 184
+      },
+      {
+        "name": "Inge",
+        "h": 180
+      },
+      {
+        "name": "Iris",
+        "h": 191
+      },
+      {
+        "name": "Ivo",
+        "h": 200
+      },
+      {
+        "name": "Jay",
+        "h": 204
+      },
+      {
+        "name": "jelle",
+        "h": 195
+      },
+      {
+        "name": "Jenny",
+        "h": 188
+      },
+      {
+        "name": "Jenske",
+        "h": 189
+      },
+      {
+        "name": "Jolie",
+        "h": 188
+      },
+      {
+        "name": "Joost",
+        "h": 198
+      },
+      {
+        "name": "Julia",
+        "h": 187
+      },
+      {
+        "name": "Juliee",
+        "h": 187
+      },
+      {
+        "name": "Juul",
+        "h": 195
+      },
+      {
+        "name": "Kasper",
+        "h": 201
+      },
+      {
+        "name": "KawaMootje",
+        "h": 182
+      },
+      {
+        "name": "Kelly",
+        "h": 188
+      },
+      {
+        "name": "Kiwi",
+        "h": 183
+      },
+      {
+        "name": "Liza",
+        "h": 183
+      },
+      {
+        "name": "Lonneke",
+        "h": 181
+      },
+      {
+        "name": "Lyn",
+        "h": 183
+      },
+      {
+        "name": "Maas",
+        "h": 95
+      },
+      {
+        "name": "Marieke",
+        "h": 184
+      },
+      {
+        "name": "Marieke, Riekje, Salmarieke",
+        "h": 185
+      },
+      {
+        "name": "Marinda",
+        "h": 182
+      },
+      {
+        "name": "Marit",
+        "h": 181
+      },
+      {
+        "name": "Mark",
+        "h": 203
+      },
+      {
+        "name": "Mark of hé lange",
+        "h": 204
+      },
+      {
+        "name": "Marlon",
+        "h": 180
+      },
+      {
+        "name": "Marrrr",
+        "h": 182
+      },
+      {
+        "name": "mel",
+        "h": 180
+      },
+      {
+        "name": "Mieke",
+        "h": 182
+      },
+      {
+        "name": "Milan",
+        "h": 204
+      },
+      {
+        "name": "Milan 🥳",
+        "h": 197
+      },
+      {
+        "name": "Mirrin",
+        "h": 183
+      },
+      {
+        "name": "Nikita",
+        "h": 185
+      },
+      {
+        "name": "Rebecca",
+        "h": 190
+      },
+      {
+        "name": "Rens",
+        "h": 196
+      },
+      {
+        "name": "Renske",
+        "h": 193
+      },
+      {
+        "name": "Renzo",
+        "h": 191
+      },
+      {
+        "name": "Romy Jans",
+        "h": 180
+      },
+      {
+        "name": "Rosa",
+        "h": 183
+      },
+      {
+        "name": "Ruben",
+        "h": 204
+      },
+      {
+        "name": "Sann",
+        "h": 197
+      },
+      {
+        "name": "Simon",
+        "h": 201
+      },
+      {
+        "name": "Sophie",
+        "h": 190
+      },
+      {
+        "name": "Sophie",
+        "h": 189
+      },
+      {
+        "name": "sven",
+        "h": 204
+      },
+      {
+        "name": "Thijmen",
+        "h": 197
+      },
+      {
+        "name": "Tijn",
+        "h": 203
+      },
+      {
+        "name": "Veerle",
+        "h": 181
+      },
+      {
+        "name": "Verena",
+        "h": 184
+      },
+      {
+        "name": "Vincent",
+        "h": 198
+      },
+      {
+        "name": "Vrienden noemen me Wout, dus zeg maar gewoon Wouter",
+        "h": 195
+      },
+      {
+        "name": "Willemijn",
+        "h": 185
+      },
+      {
+        "name": "Ymke",
+        "h": 180
+      },
+      {
+        "name": "Yvet",
+        "h": 183
+      },
+      {
+        "name": "Yvette",
+        "h": 190
+      }
+    ],
+    "histogram": [
+      {
+        "bucket": 180,
+        "label": "180–184",
+        "count": 29
+      },
+      {
+        "bucket": 185,
+        "label": "185–189",
+        "count": 18
+      },
+      {
+        "bucket": 190,
+        "label": "190–194",
+        "count": 7
+      },
+      {
+        "bucket": 195,
+        "label": "195–199",
+        "count": 16
+      },
+      {
+        "bucket": 200,
+        "label": "200–204",
+        "count": 13
+      },
+      {
+        "bucket": 210,
+        "label": "210–214",
+        "count": 1
+      }
+    ]
+  },
+  "age": {
+    "avg": 29,
+    "oldest": {
+      "name": "Darth vader",
+      "a": 60
+    },
+    "youngest": {
+      "name": "Maas",
+      "a": 1
+    },
+    "all": [
+      {
+        "name": "Aebe",
+        "a": 27
+      },
+      {
+        "name": "Alexandra",
+        "a": 24
+      },
+      {
+        "name": "Amber",
+        "a": 31
+      },
+      {
+        "name": "Annabel",
+        "a": 26
+      },
+      {
+        "name": "Anouk3",
+        "a": 29
+      },
+      {
+        "name": "Biko",
+        "a": 31
+      },
+      {
+        "name": "Cait",
+        "a": 28
+      },
+      {
+        "name": "Carine",
+        "a": 27
+      },
+      {
+        "name": "Carlijn",
+        "a": 21
+      },
+      {
+        "name": "Cejas",
+        "a": 25
+      },
+      {
+        "name": "Chantie",
+        "a": 23
+      },
+      {
+        "name": "Chris",
+        "a": 25
+      },
+      {
+        "name": "Coenraad",
+        "a": 49
+      },
+      {
+        "name": "Damian",
+        "a": 29
+      },
+      {
+        "name": "Daphne",
+        "a": 26
+      },
+      {
+        "name": "Darth vader",
+        "a": 60
+      },
+      {
+        "name": "Dave",
+        "a": 25
+      },
+      {
+        "name": "Denice",
+        "a": 27
+      },
+      {
+        "name": "Duncan",
+        "a": 25
+      },
+      {
+        "name": "Emma",
+        "a": 27
+      },
+      {
+        "name": "Esther",
+        "a": 27
+      },
+      {
+        "name": "Femke",
+        "a": 25
+      },
+      {
+        "name": "Floor",
+        "a": 26
+      },
+      {
+        "name": "Gerlieke",
+        "a": 31
+      },
+      {
+        "name": "Giulia",
+        "a": 26
+      },
+      {
+        "name": "Guido",
+        "a": 25
+      },
+      {
+        "name": "Hanna",
+        "a": 29
+      },
+      {
+        "name": "Hugo",
+        "a": 26
+      },
+      {
+        "name": "Ilona",
+        "a": 22
+      },
+      {
+        "name": "Inge",
+        "a": 26
+      },
+      {
+        "name": "Iris",
+        "a": 22
+      },
+      {
+        "name": "Ivo",
+        "a": 47
+      },
+      {
+        "name": "Jay",
+        "a": 25
+      },
+      {
+        "name": "jelle",
+        "a": 21
+      },
+      {
+        "name": "Jenny",
+        "a": 26
+      },
+      {
+        "name": "Jenske",
+        "a": 30
+      },
+      {
+        "name": "Jolie",
+        "a": 29
+      },
+      {
+        "name": "Joost",
+        "a": 27
+      },
+      {
+        "name": "Julia",
+        "a": 36
+      },
+      {
+        "name": "Juliee",
+        "a": 20
+      },
+      {
+        "name": "Juul",
+        "a": 38
+      },
+      {
+        "name": "Kasper",
+        "a": 24
+      },
+      {
+        "name": "KawaMootje",
+        "a": 36
+      },
+      {
+        "name": "Kelly",
+        "a": 35
+      },
+      {
+        "name": "Kiwi",
+        "a": 30
+      },
+      {
+        "name": "Liza",
+        "a": 32
+      },
+      {
+        "name": "Lonneke",
+        "a": 28
+      },
+      {
+        "name": "Lyn",
+        "a": 23
+      },
+      {
+        "name": "Maas",
+        "a": 1
+      },
+      {
+        "name": "Marieke",
+        "a": 37
+      },
+      {
+        "name": "Marieke, Riekje, Salmarieke",
+        "a": 23
+      },
+      {
+        "name": "Marinda",
+        "a": 29
+      },
+      {
+        "name": "Marit",
+        "a": 26
+      },
+      {
+        "name": "Mark",
+        "a": 29
+      },
+      {
+        "name": "Mark of hé lange",
+        "a": 46
+      },
+      {
+        "name": "Marlon",
+        "a": 31
+      },
+      {
+        "name": "Marrrr",
+        "a": 29
+      },
+      {
+        "name": "mel",
+        "a": 24
+      },
+      {
+        "name": "Mieke",
+        "a": 35
+      },
+      {
+        "name": "Milan",
+        "a": 26
+      },
+      {
+        "name": "Milan 🥳",
+        "a": 26
+      },
+      {
+        "name": "Mirrin",
+        "a": 27
+      },
+      {
+        "name": "Nikita",
+        "a": 24
+      },
+      {
+        "name": "Rebecca",
+        "a": 35
+      },
+      {
+        "name": "Rens",
+        "a": 24
+      },
+      {
+        "name": "Renske",
+        "a": 24
+      },
+      {
+        "name": "Renzo",
+        "a": 28
+      },
+      {
+        "name": "Romy Jans",
+        "a": 28
+      },
+      {
+        "name": "Rosa",
+        "a": 24
+      },
+      {
+        "name": "Ruben",
+        "a": 26
+      },
+      {
+        "name": "Sann",
+        "a": 20
+      },
+      {
+        "name": "Simon",
+        "a": 24
+      },
+      {
+        "name": "Sophie",
+        "a": 23
+      },
+      {
+        "name": "Sophie",
+        "a": 36
+      },
+      {
+        "name": "sven",
+        "a": 27
+      },
+      {
+        "name": "Thijmen",
+        "a": 22
+      },
+      {
+        "name": "Tijn",
+        "a": 26
+      },
+      {
+        "name": "Veerle",
+        "a": 28
+      },
+      {
+        "name": "Verena",
+        "a": 28
+      },
+      {
+        "name": "Vincent",
+        "a": 23
+      },
+      {
+        "name": "Vrienden noemen me Wout, dus zeg maar gewoon Wouter",
+        "a": 60
+      },
+      {
+        "name": "Willemijn",
+        "a": 28
+      },
+      {
+        "name": "Ymke",
+        "a": 28
+      },
+      {
+        "name": "Yvet",
+        "a": 28
+      },
+      {
+        "name": "Yvette",
+        "a": 27
+      }
+    ],
+    "histogram": [
+      {
+        "bucket": 20,
+        "label": "20–24",
+        "count": 20
+      },
+      {
+        "bucket": 25,
+        "label": "25–29",
+        "count": 44
+      },
+      {
+        "bucket": 30,
+        "label": "30–34",
+        "count": 7
+      },
+      {
+        "bucket": 35,
+        "label": "35–39",
+        "count": 8
+      },
+      {
+        "bucket": 45,
+        "label": "45–49",
+        "count": 3
+      },
+      {
+        "bucket": 60,
+        "label": "60–64",
+        "count": 2
+      }
+    ]
+  },
+  "origin": {
+    "cities": [
+      {
+        "city": "Utrecht",
+        "count": 12,
+        "coords": [
+          5.12,
+          52.09
+        ]
+      },
+      {
+        "city": "Nijmegen",
+        "count": 6,
+        "coords": [
+          5.86,
+          51.84
+        ]
+      },
+      {
+        "city": "Rotterdam",
+        "count": 4,
+        "coords": [
+          4.48,
+          51.92
+        ]
+      },
+      {
+        "city": "Hoorn",
+        "count": 4,
+        "coords": [
+          5.06,
+          52.64
+        ]
+      },
+      {
+        "city": "Amsterdam",
+        "count": 4,
+        "coords": [
+          4.9,
+          52.37
+        ]
+      },
+      {
+        "city": "Haarlem",
+        "count": 3,
+        "coords": [
+          4.63,
+          52.38
+        ]
+      },
+      {
+        "city": "Leidschendam",
+        "count": 2,
+        "coords": [
+          4.4,
+          52.09
+        ]
+      },
+      {
+        "city": "Huizen",
+        "count": 2,
+        "coords": [
+          5.24,
+          52.3
+        ]
+      },
+      {
+        "city": "Houten",
+        "count": 2,
+        "coords": [
+          5.17,
+          52.03
+        ]
+      },
+      {
+        "city": "Zwolle",
+        "count": 2,
+        "coords": [
+          6.09,
+          52.51
+        ]
+      },
+      {
+        "city": "Leiden",
+        "count": 2,
+        "coords": [
+          4.5,
+          52.16
+        ]
+      },
+      {
+        "city": "Eindhoven",
+        "count": 2,
+        "coords": [
+          5.48,
+          51.44
+        ]
+      },
+      {
+        "city": "Sliedrecht",
+        "count": 2,
+        "coords": [
+          4.77,
+          51.82
+        ]
+      },
+      {
+        "city": "Vlijmen",
+        "count": 2,
+        "coords": [
+          5.22,
+          51.71
+        ]
+      },
+      {
+        "city": "Amerongen",
+        "count": 1,
+        "coords": [
+          5.45,
+          52
+        ]
+      },
+      {
+        "city": "Hilversum",
+        "count": 1,
+        "coords": [
+          5.18,
+          52.23
+        ]
+      },
+      {
+        "city": "Odijk",
+        "count": 1,
+        "coords": [
+          5.22,
+          52.05
+        ]
+      },
+      {
+        "city": "Velsen-Noord",
+        "count": 1,
+        "coords": [
+          4.66,
+          52.47
+        ]
+      },
+      {
+        "city": "Holthone",
+        "count": 1,
+        "coords": [
+          6.63,
+          52.63
+        ]
+      },
+      {
+        "city": "Hillegom",
+        "count": 1,
+        "coords": [
+          4.58,
+          52.29
+        ]
+      },
+      {
+        "city": "Harlingen",
+        "count": 1,
+        "coords": [
+          5.42,
+          53.17
+        ]
+      },
+      {
+        "city": "Grootebroek",
+        "count": 1,
+        "coords": [
+          5.2,
+          52.69
+        ]
+      },
+      {
+        "city": "Volendam",
+        "count": 1,
+        "coords": [
+          5.07,
+          52.49
+        ]
+      },
+      {
+        "city": "Oudenbosch",
+        "count": 1,
+        "coords": [
+          4.53,
+          51.59
+        ]
+      },
+      {
+        "city": "Gennep",
+        "count": 1,
+        "coords": [
+          5.97,
+          51.7
+        ]
+      },
+      {
+        "city": "Ede",
+        "count": 1,
+        "coords": [
+          5.66,
+          52.04
+        ]
+      },
+      {
+        "city": "Zeist",
+        "count": 1,
+        "coords": [
+          5.23,
+          52.09
+        ]
+      },
+      {
+        "city": "Almere",
+        "count": 1,
+        "coords": [
+          5.22,
+          52.35
+        ]
+      },
+      {
+        "city": "Montfoort",
+        "count": 1,
+        "coords": [
+          4.95,
+          52.05
+        ]
+      },
+      {
+        "city": "Oss",
+        "count": 1,
+        "coords": [
+          5.53,
+          51.77
+        ]
+      },
+      {
+        "city": "Voorhout",
+        "count": 1,
+        "coords": [
+          4.48,
+          52.22
+        ]
+      },
+      {
+        "city": "Obdam",
+        "count": 1,
+        "coords": [
+          4.9,
+          52.68
+        ]
+      },
+      {
+        "city": "Vorden",
+        "count": 1,
+        "coords": [
+          6.31,
+          52.1
+        ]
+      },
+      {
+        "city": "Langbroek",
+        "count": 1,
+        "coords": [
+          5.31,
+          52.01
+        ]
+      },
+      {
+        "city": "Schaijk",
+        "count": 1,
+        "coords": [
+          5.63,
+          51.74
+        ]
+      },
+      {
+        "city": "Delft",
+        "count": 1,
+        "coords": [
+          4.36,
+          52.01
+        ]
+      },
+      {
+        "city": "Oudheusden",
+        "count": 1,
+        "coords": [
+          5.1,
+          51.72
+        ]
+      },
+      {
+        "city": "Den Haag",
+        "count": 1,
+        "coords": [
+          4.3,
+          52.07
+        ]
+      },
+      {
+        "city": "Heerhugowaard",
+        "count": 1,
+        "coords": [
+          4.83,
+          52.67
+        ]
+      },
+      {
+        "city": "Oostkapelle",
+        "count": 1,
+        "coords": [
+          3.55,
+          51.57
+        ]
+      },
+      {
+        "city": "Boxtel",
+        "count": 1,
+        "coords": [
+          5.32,
+          51.59
+        ]
+      },
+      {
+        "city": "Amersfoort",
+        "count": 1,
+        "coords": [
+          5.39,
+          52.16
+        ]
+      },
+      {
+        "city": "Alblasserdam",
+        "count": 1,
+        "coords": [
+          4.66,
+          51.86
+        ]
+      },
+      {
+        "city": "Drunen",
+        "count": 1,
+        "coords": [
+          5.13,
+          51.69
+        ]
+      },
+      {
+        "city": "Hulsel",
+        "count": 1,
+        "coords": [
+          5.19,
+          51.44
+        ]
+      },
+      {
+        "city": "Sprang-Capelle",
+        "count": 1,
+        "coords": [
+          5,
+          51.68
+        ]
+      },
+      {
+        "city": "Goorn",
+        "count": 1,
+        "coords": [
+          5,
+          52.62
+        ]
+      },
+      {
+        "city": "Hoofddorp",
+        "count": 1,
+        "coords": [
+          4.69,
+          52.3
+        ]
+      },
+      {
+        "city": "Emmen",
+        "count": 1,
+        "coords": [
+          6.9,
+          52.79
+        ]
+      }
+    ],
+    "unmapped": [
+      "From"
+    ],
+    "topCity": {
+      "city": "Utrecht",
+      "count": 12,
+      "coords": [
+        5.12,
+        52.09
+      ]
+    }
+  },
+  "count": {
+    "newbies": 26,
+    "veterans": 24,
+    "totalBorrelsAttended": 582,
+    "mostExperienced": [
+      {
+        "name": "Ymke",
+        "n": 29,
+        "joke": false
+      },
+      {
+        "name": "Cait",
+        "n": 26,
+        "joke": false
+      },
+      {
+        "name": "Jolie",
+        "n": 26,
+        "joke": false
+      },
+      {
+        "name": "Darth vader",
+        "n": 25,
+        "joke": false
+      },
+      {
+        "name": "Giulia",
+        "n": 25,
+        "joke": false
+      }
+    ],
+    "distribution": [
+      {
+        "label": "1 (debuut)",
+        "count": 26
+      },
+      {
+        "label": "2–5",
+        "count": 24
+      },
+      {
+        "label": "6–10",
+        "count": 11
+      },
+      {
+        "label": "11–20",
+        "count": 14
+      },
+      {
+        "label": "21+",
+        "count": 7
+      }
+    ]
+  },
+  "attend": {
+    "buckets": [
+      {
+        "label": "Kleedje ligt klaar",
+        "count": 61
+      },
+      {
+        "label": "In onderhandeling",
+        "count": 17
+      },
+      {
+        "label": "Twijfelgeval",
+        "count": 4
+      },
+      {
+        "label": "Verhinderd",
+        "count": 3
+      }
+    ],
+    "yes": 61,
+    "total": 85
+  },
+  "dish": {
+    "words": [
+      {
+        "text": "pasta",
+        "value": 15
+      },
+      {
+        "text": "risotto",
+        "value": 8
+      },
+      {
+        "text": "curry",
+        "value": 6
+      },
+      {
+        "text": "vega",
+        "value": 5
+      },
+      {
+        "text": "lasagne",
+        "value": 5
+      },
+      {
+        "text": "rode",
+        "value": 4
+      },
+      {
+        "text": "zelfgemaakte",
+        "value": 4
+      },
+      {
+        "text": "zelf",
+        "value": 3
+      },
+      {
+        "text": "feta",
+        "value": 3
+      },
+      {
+        "text": "zalm",
+        "value": 3
+      },
+      {
+        "text": "salade",
+        "value": 3
+      },
+      {
+        "text": "oven",
+        "value": 3
+      },
+      {
+        "text": "carbonara",
+        "value": 3
+      },
+      {
+        "text": "orzo",
+        "value": 3
+      },
+      {
+        "text": "pesto",
+        "value": 3
+      },
+      {
+        "text": "noedels",
+        "value": 2
+      },
+      {
+        "text": "gebakken",
+        "value": 2
+      },
+      {
+        "text": "chicken",
+        "value": 2
+      },
+      {
+        "text": "dieetwensen",
+        "value": 2
+      },
+      {
+        "text": "aubergine",
+        "value": 2
+      },
+      {
+        "text": "turks",
+        "value": 2
+      },
+      {
+        "text": "brood",
+        "value": 2
+      },
+      {
+        "text": "avocado",
+        "value": 2
+      },
+      {
+        "text": "spinazie",
+        "value": 2
+      },
+      {
+        "text": "rendang",
+        "value": 2
+      },
+      {
+        "text": "crispy",
+        "value": 2
+      },
+      {
+        "text": "rijst",
+        "value": 2
+      },
+      {
+        "text": "truffel",
+        "value": 2
+      },
+      {
+        "text": "thaise",
+        "value": 2
+      },
+      {
+        "text": "pompoen",
+        "value": 2
+      },
+      {
+        "text": "gevulde",
+        "value": 2
+      },
+      {
+        "text": "courgette",
+        "value": 2
+      },
+      {
+        "text": "borrelplank",
+        "value": 2
+      },
+      {
+        "text": "kaas",
+        "value": 2
+      },
+      {
+        "text": "koken",
+        "value": 2
+      },
+      {
+        "text": "worden",
+        "value": 2
+      },
+      {
+        "text": "gehaktballen",
+        "value": 2
+      },
+      {
+        "text": "lekker",
+        "value": 2
+      },
+      {
+        "text": "worst",
+        "value": 2
+      },
+      {
+        "text": "basilicum",
+        "value": 2
+      }
+    ],
+    "tally": [
+      {
+        "dish": "pasta",
+        "count": 17
+      },
+      {
+        "dish": "risotto",
+        "count": 9
+      },
+      {
+        "dish": "curry",
+        "count": 6
+      },
+      {
+        "dish": "lasagne",
+        "count": 5
+      },
+      {
+        "dish": "salade",
+        "count": 4
+      },
+      {
+        "dish": "carbonara",
+        "count": 3
+      },
+      {
+        "dish": "orzo",
+        "count": 3
+      },
+      {
+        "dish": "rendang",
+        "count": 2
+      }
+    ]
+  },
+  "essentials": {
+    "words": [
+      {
+        "text": "gezelligheid",
+        "value": 7
+      },
+      {
+        "text": "zonnebrand",
+        "value": 5
+      },
+      {
+        "text": "kurkentrekker",
+        "value": 4
+      },
+      {
+        "text": "augurken",
+        "value": 4
+      },
+      {
+        "text": "salmari",
+        "value": 4
+      },
+      {
+        "text": "iemand",
+        "value": 4
+      },
+      {
+        "text": "mensen",
+        "value": 3
+      },
+      {
+        "text": "muziek",
+        "value": 3
+      },
+      {
+        "text": "tequila",
+        "value": 3
+      },
+      {
+        "text": "weer",
+        "value": 3
+      },
+      {
+        "text": "spelletjes",
+        "value": 3
+      },
+      {
+        "text": "wijn",
+        "value": 3
+      },
+      {
+        "text": "zon",
+        "value": 2
+      },
+      {
+        "text": "spel",
+        "value": 2
+      },
+      {
+        "text": "kleedjes",
+        "value": 2
+      },
+      {
+        "text": "later",
+        "value": 2
+      },
+      {
+        "text": "avond",
+        "value": 2
+      },
+      {
+        "text": "trui",
+        "value": 2
+      },
+      {
+        "text": "aperol",
+        "value": 2
+      },
+      {
+        "text": "bal",
+        "value": 2
+      },
+      {
+        "text": "drinken",
+        "value": 2
+      },
+      {
+        "text": "gooien",
+        "value": 2
+      },
+      {
+        "text": "dus",
+        "value": 2
+      },
+      {
+        "text": "mee",
+        "value": 1
+      },
+      {
+        "text": "kleedje",
+        "value": 1
+      },
+      {
+        "text": "onbeperkt",
+        "value": 1
+      },
+      {
+        "text": "aantal",
+        "value": 1
+      },
+      {
+        "text": "kan",
+        "value": 1
+      },
+      {
+        "text": "spelen",
+        "value": 1
+      },
+      {
+        "text": "basketbal",
+        "value": 1
+      },
+      {
+        "text": "tongetje",
+        "value": 1
+      },
+      {
+        "text": "leuk",
+        "value": 1
+      },
+      {
+        "text": "nieuw",
+        "value": 1
+      },
+      {
+        "text": "avontuur",
+        "value": 1
+      },
+      {
+        "text": "jas",
+        "value": 1
+      },
+      {
+        "text": "voot",
+        "value": 1
+      },
+      {
+        "text": "boom",
+        "value": 1
+      },
+      {
+        "text": "muziekje",
+        "value": 1
+      },
+      {
+        "text": "tropische",
+        "value": 1
+      },
+      {
+        "text": "temperatuur",
+        "value": 1
+      }
+    ]
+  },
+  "ikea": [
+    {
+      "name": "Aebe",
+      "text": "Alle borden die de paden en shortcuts aangeven in willekeurige volgorde verwisselen. Als er tijd over blijft hetzelfde doen in het magazijn. Let the chaos commence"
+    },
+    {
+      "name": "Alexandra",
+      "text": "winkelkarretje racen"
+    },
+    {
+      "name": "Amber",
+      "text": "Ben ik alleen? Lekker rondstruinen en op zoek gaan naar het meest comfortabele bed. Met anderen: verstoppertje spelen"
+    },
+    {
+      "name": "Annabel",
+      "text": "Alles testen"
+    },
+    {
+      "name": "Anouk3",
+      "text": "Spelen in de kinderhoek"
+    },
+    {
+      "name": "Biko",
+      "text": "Slapen, ik ben te oud om die te missen"
+    },
+    {
+      "name": "Cait",
+      "text": "Even een goeie 8 uur slaap pakken?"
+    },
+    {
+      "name": "Carine",
+      "text": "Door het magazijn racen met die karretjes"
+    },
+    {
+      "name": "Carlijn",
+      "text": "Het lekkerste bed uitzoeken en daar gaan chillen met een schaal Zweedse balletjes"
+    },
+    {
+      "name": "Cejas",
+      "text": "Alle bitterballen eten"
+    },
+    {
+      "name": "Chantie",
+      "text": "Slapen in een lekker bedje"
+    },
+    {
+      "name": "Chris",
+      "text": "Een enorm fort bouwen van ikea meubilair"
+    },
+    {
+      "name": "Coenraad",
+      "text": "Genoeg bedden om te slapen"
+    },
+    {
+      "name": "Damian",
+      "text": "De Zweedse balletjes pakken en lekker elk hoekje van de winkel bekijken"
+    },
+    {
+      "name": "Daphne",
+      "text": "Op alle bedden springen"
+    },
+    {
+      "name": "Darth vader",
+      "text": "Emma natuurlijk"
+    },
+    {
+      "name": "Dave",
+      "text": "Alleen, gewoon een goede nap denk ik? Met de kompanen? VERSTOPPERTJE!"
+    },
+    {
+      "name": "Denice",
+      "text": "Alle ikea balletjes opeten"
+    },
+    {
+      "name": "Duncan",
+      "text": "Alle bedden testen (ookal zijn die te klein)"
+    },
+    {
+      "name": "Emma",
+      "text": "Lasergamen en daarna alle balletjes snacken en m’n hoofd onder de limonadetap"
+    },
+    {
+      "name": "Femke",
+      "text": "Eerst spelen in smalland en daarna softijsjes eten en daarna lieve knuffels verzamelen en slapen in het leukste kamertje wat er te vinden is"
+    },
+    {
+      "name": "Floor",
+      "text": "Waarschijnlijk stijlstudio's volledig omgooien, want eerlijk: wanneer krijg je die kans nou als interieurliefhebber? Oh en een zak Daim leegvreten."
+    },
+    {
+      "name": "Gerlieke",
+      "text": "Softijs-apparaat-muntjes stelen en er al zoveel mogelijk eten, terwijl ik in smālland onder zo'n dennenboom rondjes aan het rennen ben"
+    },
+    {
+      "name": "Giulia",
+      "text": "Alle zweedse balletjes eten"
+    },
+    {
+      "name": "Guido",
+      "text": "Joyriden op een heftruck"
+    },
+    {
+      "name": "Hugo",
+      "text": "Tellen hoeveel meubels te koop staan"
+    },
+    {
+      "name": "Ilona",
+      "text": "Al die houten decoratiehanden een middelvinger laten opsteken"
+    },
+    {
+      "name": "Iris",
+      "text": "Het hele restaurant leegeten"
+    },
+    {
+      "name": "Ivo",
+      "text": "De lange bedden uitproberen"
+    },
+    {
+      "name": "Jay",
+      "text": "Ervan genieten om is een keer groot te wonen"
+    },
+    {
+      "name": "jelle",
+      "text": "Slapen in het lekkerste bed"
+    },
+    {
+      "name": "Jenny",
+      "text": "Bad vullen met softijs en badderen"
+    },
+    {
+      "name": "Jenske",
+      "text": "Zweedse balle eten, duizend ijsjes maken en klimmen in de rekken van het zelfbedieningsmagazijn"
+    },
+    {
+      "name": "Jolie",
+      "text": "Alle bedden tegen elkaar aan schuiven en het als springpaleis gebruiken"
+    },
+    {
+      "name": "Julia",
+      "text": "Op alle bedden springen"
+    },
+    {
+      "name": "Juliee",
+      "text": "Heel veel IKEA hotdog’s eten en lekker slapen om een goed bed daar."
+    },
+    {
+      "name": "Juul",
+      "text": "Grootste, beste en spectaculairste fort ooit bouwen! Of alle stellingen verplaatsen en er een doolhof van maken!"
+    },
+    {
+      "name": "Kasper",
+      "text": "Het lekkerste bed zoeken natuurlijk"
+    },
+    {
+      "name": "KawaMootje",
+      "text": "Onbeperkt ijsjes tappen"
+    },
+    {
+      "name": "Kelly",
+      "text": "De ballenbak induiken!"
+    },
+    {
+      "name": "Liza",
+      "text": "Hopen dat het alarm niet afgaat"
+    },
+    {
+      "name": "Lonneke",
+      "text": "Balletjes eten"
+    },
+    {
+      "name": "Lyn",
+      "text": "Bomba veel gehaktballetjes wegkanen"
+    },
+    {
+      "name": "Maas",
+      "text": "Spelen in Smalland!"
+    },
+    {
+      "name": "Marieke",
+      "text": "Als we met zn alle zijn verstoppertje"
+    },
+    {
+      "name": "Marieke, Riekje, Salmarieke",
+      "text": "Dit is echt mijn droom, maar sws alle bedjes uittesten en een portie plantaardige balletjes opwarmen"
+    },
+    {
+      "name": "Marinda",
+      "text": "Als ik met meer mensen ben ga ik verstoppertje spelen"
+    },
+    {
+      "name": "Mark",
+      "text": "Banken en bedden uitproberen"
+    },
+    {
+      "name": "Mark of hé lange",
+      "text": "Alle Zweedse balletjes Nederlands leren!"
+    },
+    {
+      "name": "Marlon",
+      "text": "Uit elke doos in t magazijn 1 onderdeel verwijderen"
+    },
+    {
+      "name": "Marrrr",
+      "text": "Daar pitten in een bed"
+    },
+    {
+      "name": "mel",
+      "text": "een mtv cribs episode opnemen"
+    },
+    {
+      "name": "Mieke",
+      "text": "Zweedse balletjes eten"
+    },
+    {
+      "name": "Milan",
+      "text": "Op alle bedden springen"
+    },
+    {
+      "name": "Milan 🥳",
+      "text": "Zoeken naar het beste bed om in te slapen"
+    },
+    {
+      "name": "Mirrin",
+      "text": "Slapen en hopen dat dit gauw voorbij is"
+    },
+    {
+      "name": "Nikita",
+      "text": "Een snackproeverij"
+    },
+    {
+      "name": "Rebecca",
+      "text": "Heel veel hotdogs en gehaktballen eten. En een dutje in 1 van de showroom slaapkamers."
+    },
+    {
+      "name": "Rens",
+      "text": "In de ballenbak gaan en zweedse balletjes smikkelen"
+    },
+    {
+      "name": "Renske",
+      "text": "Alle fotolijstjes/schilderijen onderste boven hangen just for fun!"
+    },
+    {
+      "name": "Renzo",
+      "text": "Eindeloos zweedse balletjes eten"
+    },
+    {
+      "name": "Rosa",
+      "text": "Heeeeeel veel muntjes voor het ijsmachine stelen. En mn ultieme droomkamer die ik als kind had gewild inrichten, met een jungle thema ofzo, en een boomhut hoogslaper zoiets"
+    },
+    {
+      "name": "Ruben",
+      "text": "Alle balletjes opwarmen en opeten"
+    },
+    {
+      "name": "Sann",
+      "text": "Een bed opzoeken die 2.20 lang is"
+    },
+    {
+      "name": "Simon",
+      "text": "Shitload aan Zweedse balletjes maken en netflixen in Småland"
+    },
+    {
+      "name": "Sophie",
+      "text": "De showroom wc uittesten"
+    },
+    {
+      "name": "Sophie",
+      "text": "Me gedragen als een reus op de kinderafdeling."
+    },
+    {
+      "name": "sven",
+      "text": "een orgie organiseren"
+    },
+    {
+      "name": "Thijmen",
+      "text": "Cadeaukaarten contant afslaan"
+    },
+    {
+      "name": "Tijn",
+      "text": "op elk bed seks hebben"
+    },
+    {
+      "name": "Veerle",
+      "text": "Daim toffees eten"
+    },
+    {
+      "name": "Verena",
+      "text": "In Smålland spelen, Zweedse balletjes met friet eten en daarna in één van die bedden kruipen."
+    },
+    {
+      "name": "Vincent",
+      "text": "Rondhangen"
+    },
+    {
+      "name": "Willemijn",
+      "text": "Laser gamen en daarna dnb rave"
+    },
+    {
+      "name": "Ymke",
+      "text": "Dikke rave gooien in het geluids department"
+    },
+    {
+      "name": "Yvet",
+      "text": "Slapen want ik ben moe"
+    },
+    {
+      "name": "Yvette",
+      "text": "Kasten in elkaar zetten en smalland overnemen"
+    }
+  ],
+  "memes": [
+    {
+      "name": "Aebe",
+      "text": "LEROYYYY JEEEEENKINSSSSS"
+    },
+    {
+      "name": "Alexandra",
+      "text": "Nee maar, kijk, luister. Mijn eerste indruk is: romig."
+    },
+    {
+      "name": "Amber",
+      "text": "First world problems meme (te toepasselijk)"
+    },
+    {
+      "name": "Annabel",
+      "text": "SIIIMOOOOOON"
+    },
+    {
+      "name": "Anouk3",
+      "text": "Chloe"
+    },
+    {
+      "name": "Biko",
+      "text": "Engelbewaarder vs Emma is de grootste meme die er bestaat."
+    },
+    {
+      "name": "Cait",
+      "text": "Okaaaaaay let's go"
+    },
+    {
+      "name": "Carine",
+      "text": "Allemaal stenen hé"
+    },
+    {
+      "name": "Cejas",
+      "text": "Wouldn't you like to know, weatherboy"
+    },
+    {
+      "name": "Chris",
+      "text": "Hmmm, geen idee, nog suggesties"
+    },
+    {
+      "name": "Coenraad",
+      "text": "My Name is Jef"
+    },
+    {
+      "name": "Damian",
+      "text": "te veel"
+    },
+    {
+      "name": "Daphne",
+      "text": "✨mazda miata✨"
+    },
+    {
+      "name": "Darth vader",
+      "text": "Luke, ik ben ook je oma ja, ja heeh had je niet gedacht heh, nee das niet waar ik heb geen oma. Mastermovies voor de echte kenners"
+    },
+    {
+      "name": "Dave",
+      "text": "Verkoopt u hier ook....?"
+    },
+    {
+      "name": "Denice",
+      "text": "Wat kost hier watermeloen?"
+    },
+    {
+      "name": "Duncan",
+      "text": "Free shavacado"
+    },
+    {
+      "name": "Emma",
+      "text": "HEET JIJ ECHT ZO"
+    },
+    {
+      "name": "Esther",
+      "text": "Water??? Wil je me vergiftigen ofzo"
+    },
+    {
+      "name": "Femke",
+      "text": "Nee maar nee kijk de eerste indruk is ROMIG uuuuuhhh een soort zaad"
+    },
+    {
+      "name": "Floor",
+      "text": "Heb je ff? 'Dat is werkelijk iets aparts' heeft wel de overhand momenteel."
+    },
+    {
+      "name": "Gerlieke",
+      "text": "Je moet eten, maar,.. je moet eten...▪︎ mijn hoofd doet pijn ▪︎ maar je moet eten ▪︎ ik heb hoofdpijn, je hebt mijn hoofd pijn gedaan. ▪︎ je moet eten ▪︎ ik lijk op jou 😏"
+    },
+    {
+      "name": "Guido",
+      "text": "*googelt rent-free* 'ik proef kurk, hoe kut is dat'"
+    },
+    {
+      "name": "Hanna",
+      "text": "Water!?"
+    },
+    {
+      "name": "Hugo",
+      "text": "Dictator Mbappe"
+    },
+    {
+      "name": "Ilona",
+      "text": "‘Nee denk t ni’"
+    },
+    {
+      "name": "Inge",
+      "text": "Road work ahead? Uh yeah, I sure hope it does!"
+    },
+    {
+      "name": "Iris",
+      "text": "‘Ik wil even lekker dansen’"
+    },
+    {
+      "name": "Ivo",
+      "text": "The Vinkingrow sowieso"
+    },
+    {
+      "name": "Jay",
+      "text": "Dont mine at night"
+    },
+    {
+      "name": "jelle",
+      "text": "Name is jeff"
+    },
+    {
+      "name": "Jenny",
+      "text": "Hallo, wat kost hier WATERMIELOEN"
+    },
+    {
+      "name": "Jenske",
+      "text": "Hokeeeeey letsgo"
+    },
+    {
+      "name": "Jolie",
+      "text": "It eez what it eez"
+    },
+    {
+      "name": "Joost",
+      "text": "This bitch empty, YEEETTT"
+    },
+    {
+      "name": "Julia",
+      "text": "MAND! (Is dat een meme?)"
+    },
+    {
+      "name": "Juliee",
+      "text": "Angelooo had het nog zo gezegddd"
+    },
+    {
+      "name": "Juul",
+      "text": "Okeeee let’s goooo"
+    },
+    {
+      "name": "Kasper",
+      "text": "Lebron edits"
+    },
+    {
+      "name": "KawaMootje",
+      "text": "Judgy girl"
+    },
+    {
+      "name": "Kelly",
+      "text": "Chloé we’re going to Disneyland"
+    },
+    {
+      "name": "Kiwi",
+      "text": "Brother ewwww"
+    },
+    {
+      "name": "Liza",
+      "text": "Dus jij wilt 10.000 lenen? Mag niet. (Mastermovies)"
+    },
+    {
+      "name": "Lonneke",
+      "text": "Okeeee let’s go"
+    },
+    {
+      "name": "Lyn",
+      "text": "“MAND” en “ik heb helemaal geen neus” zijn echt mn vocal stims"
+    },
+    {
+      "name": "Maas",
+      "text": "Treinen zijn mijn memes"
+    },
+    {
+      "name": "Marieke",
+      "text": "Ik ben al oud he, dus geen idee"
+    },
+    {
+      "name": "Marieke, Riekje, Salmarieke",
+      "text": "Poohhh das mien merk"
+    },
+    {
+      "name": "Marinda",
+      "text": "Ik heb helemaal geen neus"
+    },
+    {
+      "name": "Marit",
+      "text": "Emmen"
+    },
+    {
+      "name": "Mark of hé lange",
+      "text": "Da zin jullie mam gisteren ook!"
+    },
+    {
+      "name": "Marlon",
+      "text": "Ik denk nie das doe vannacht nog slaopts, ja in een kissie"
+    },
+    {
+      "name": "Marrrr",
+      "text": "Mand"
+    },
+    {
+      "name": "mel",
+      "text": "die tiktoktrend met “pov: your camera roll if you were dating _ but cheating on him with _” en dan is het like shrek & perry het vogelbekdier"
+    },
+    {
+      "name": "Milan",
+      "text": "Let me do it for youuu"
+    },
+    {
+      "name": "Milan 🥳",
+      "text": "Heel veel van Mastermovies"
+    },
+    {
+      "name": "Mirrin",
+      "text": "Die man die je met een super “wtf/excuse me hoofd” en veel vraagtekens aankijkt wjw"
+    },
+    {
+      "name": "Rebecca",
+      "text": "How do you do, fellow kids?"
+    },
+    {
+      "name": "Rens",
+      "text": "MY CABBAGESSS"
+    },
+    {
+      "name": "Renske",
+      "text": "Mand"
+    },
+    {
+      "name": "Renzo",
+      "text": "Haha, bier"
+    },
+    {
+      "name": "Romy Jans",
+      "text": "Eriiiik doe rustagh"
+    },
+    {
+      "name": "Rosa",
+      "text": "Suspicious dog"
+    },
+    {
+      "name": "Ruben",
+      "text": "Vines (die spoken echt ranfom door mn hoofd) & Ahooting Stars"
+    },
+    {
+      "name": "Simon",
+      "text": "Parlez-vous een beetje henk?"
+    },
+    {
+      "name": "Sophie",
+      "text": "‘Ik wil kaas, ik ben ook een klant’"
+    },
+    {
+      "name": "sven",
+      "text": "alles met ron jans"
+    },
+    {
+      "name": "Thijmen",
+      "text": "Haaland"
+    },
+    {
+      "name": "Tijn",
+      "text": "nick young die je vragend aankijkt met allemaal vraagtekens bij zn hoofd"
+    },
+    {
+      "name": "Veerle",
+      "text": "Harry Potter voice over 8 (gehele video)"
+    },
+    {
+      "name": "Verena",
+      "text": "WATUR?!"
+    },
+    {
+      "name": "Vincent",
+      "text": "Ja echt alles. Ik ben een lopende vocal stim aan memes"
+    },
+    {
+      "name": "Vrienden noemen me Wout, dus zeg maar gewoon Wouter",
+      "text": "Okeeeee lets goooooo"
+    },
+    {
+      "name": "Willemijn",
+      "text": "WATUR?!"
+    },
+    {
+      "name": "Ymke",
+      "text": "Pitbull bald caps"
+    },
+    {
+      "name": "Yvet",
+      "text": "Hooo de faaaarrk dare to call me when I’m so busy of MAG JOUW VROUW"
+    },
+    {
+      "name": "Yvette",
+      "text": "BIEM!"
+    }
+  ],
+  "mottos": [
+    {
+      "name": "Aebe",
+      "text": "Keep calm and carry on"
+    },
+    {
+      "name": "Alexandra",
+      "text": "Als het dan toch moet, doe het dan goed."
+    },
+    {
+      "name": "Amber",
+      "text": "Het leven is een feestje en je hangt zelf de slingers op."
+    },
+    {
+      "name": "Annabel",
+      "text": "It is what it iiiiiss"
+    },
+    {
+      "name": "Anouk3",
+      "text": "Fake it till you make it"
+    },
+    {
+      "name": "Biko",
+      "text": "Pak je vrijheid."
+    },
+    {
+      "name": "Cait",
+      "text": "Wie het kleine niet eert..?"
+    },
+    {
+      "name": "Carine",
+      "text": "Voor alles is een eerste keer"
+    },
+    {
+      "name": "Cejas",
+      "text": "Yolo"
+    },
+    {
+      "name": "Chantie",
+      "text": "Komt wel goed"
+    },
+    {
+      "name": "Chris",
+      "text": "Onkruid vergaat niet en vertrouw je intuïtie"
+    },
+    {
+      "name": "Coenraad",
+      "text": "Niemand Is Bijzonder"
+    },
+    {
+      "name": "Damian",
+      "text": "Gezellighoid kent gien toid"
+    },
+    {
+      "name": "Daphne",
+      "text": "Fuck around and find out"
+    },
+    {
+      "name": "Darth vader",
+      "text": "Are you not with me, then you are my enemy"
+    },
+    {
+      "name": "Dave",
+      "text": "Leef en laat leven"
+    },
+    {
+      "name": "Denice",
+      "text": "Wat gij niet wilt dat u geschied, doet dat ook een ander niet"
+    },
+    {
+      "name": "Duncan",
+      "text": "Gewoon doen, ookal ben je bang. Je krijgt spijt als je het niet doet"
+    },
+    {
+      "name": "Emma",
+      "text": "Het beste scenario bestaat óók."
+    },
+    {
+      "name": "Esther",
+      "text": "Als het niet goed komt komt het ook goed"
+    },
+    {
+      "name": "Femke",
+      "text": "SALMARI"
+    },
+    {
+      "name": "Floor",
+      "text": "Ik heb het nog nooit gedaan, dus ik denk dat ik het wel kan' (ja ik weet dat Pippi dit nooit echt gezegd heeft, maar nu zit het er al in geprogrammeerd)"
+    },
+    {
+      "name": "Gerlieke",
+      "text": "Zo niet,... Dan toch"
+    },
+    {
+      "name": "Guido",
+      "text": "Doe maar gek, het leven is al normaal genoeg"
+    },
+    {
+      "name": "Hanna",
+      "text": "Carpe diem"
+    },
+    {
+      "name": "Hugo",
+      "text": "Het leven is te kort om overal druk om te maken"
+    },
+    {
+      "name": "Ilona",
+      "text": "Mangia bene, ridi spesso, ama molto"
+    },
+    {
+      "name": "Inge",
+      "text": "Stoken is belangrijker dan winnen."
+    },
+    {
+      "name": "Iris",
+      "text": "Uh? Ik weet het even niet. Als ij iets verzin pas ik het wel aan in de spreadsheet"
+    },
+    {
+      "name": "Ivo",
+      "text": "Ik verzamel leuke mensen om mij heen!"
+    },
+    {
+      "name": "Jay",
+      "text": "Altijd in om iets nieuws te leren"
+    },
+    {
+      "name": "jelle",
+      "text": "Ik zie wel hoe het loopt"
+    },
+    {
+      "name": "Jenny",
+      "text": "Liever scheetje voor iedereen dan buikpijn voor mij alleen"
+    },
+    {
+      "name": "Jenske",
+      "text": "Live a little"
+    },
+    {
+      "name": "Jolie",
+      "text": "Durf buiten de lijntjes te kleuren"
+    },
+    {
+      "name": "Joost",
+      "text": "Fuck it"
+    },
+    {
+      "name": "Julia",
+      "text": "Groei is beter dan stilstaan"
+    },
+    {
+      "name": "Juliee",
+      "text": "Het leven is kort maar ik niet 🤪"
+    },
+    {
+      "name": "Juul",
+      "text": "Wat je ook doet doe het met volle overgave! Werk, plezier of zeiken over het weer"
+    },
+    {
+      "name": "Kasper",
+      "text": "Ik kijk wel"
+    },
+    {
+      "name": "KawaMootje",
+      "text": "Hang die slingers op, life's a party"
+    },
+    {
+      "name": "Kelly",
+      "text": "Save water, drink wine"
+    },
+    {
+      "name": "Kiwi",
+      "text": "Kleine moeite, groot plezier♡"
+    },
+    {
+      "name": "Liza",
+      "text": "Be curious, not judgemental"
+    },
+    {
+      "name": "Lonneke",
+      "text": "Tijd voor een sidequest!"
+    },
+    {
+      "name": "Lyn",
+      "text": "Het komt goed"
+    },
+    {
+      "name": "Maas",
+      "text": "“Geef me eten”"
+    },
+    {
+      "name": "Marieke",
+      "text": "Behandel de ander zoals je zelf ook wil behandeld worden. Alleen enige probleem ik vind eerste contacten leggen moeilijk dus dat moet de ander wel iets meer doen haha."
+    },
+    {
+      "name": "Marieke, Riekje, Salmarieke",
+      "text": "De bocht halen is leuker dan er uit vliegen"
+    },
+    {
+      "name": "Marinda",
+      "text": "Du bist gut genug"
+    },
+    {
+      "name": "Marit",
+      "text": "Lang gewacht, Stil gezwegen, Nooit gedacht, En toch gekregen"
+    },
+    {
+      "name": "Mark",
+      "text": "A shot Salmari a day keeps the doctor away"
+    },
+    {
+      "name": "Mark of hé lange",
+      "text": "Ah, ik kijk/doe dat wel ff!"
+    },
+    {
+      "name": "Marlon",
+      "text": "Ik heb het nog nooit gedaan, dus ik denk dat ik het wel kan"
+    },
+    {
+      "name": "Marrrr",
+      "text": "Tis graag of nie"
+    },
+    {
+      "name": "mel",
+      "text": "boom clap sound of my heart the beat goes on and on and on and on"
+    },
+    {
+      "name": "Mieke",
+      "text": "Kijk maar ff"
+    },
+    {
+      "name": "Milan",
+      "text": "Goed ben je niet, goed wordt je"
+    },
+    {
+      "name": "Milan 🥳",
+      "text": "Half bezopen is een gebrek aan doorzettingsvermogen"
+    },
+    {
+      "name": "Mirrin",
+      "text": "Graag of niet"
+    },
+    {
+      "name": "Nikita",
+      "text": "Alles komt goed"
+    },
+    {
+      "name": "Rebecca",
+      "text": "Hallo met Rebecca"
+    },
+    {
+      "name": "Rens",
+      "text": "Never givin' up if you're strong enough"
+    },
+    {
+      "name": "Renske",
+      "text": "Haken Matata, letterlijk op mn lijf geschreven:))"
+    },
+    {
+      "name": "Renzo",
+      "text": "Bijna is niet"
+    },
+    {
+      "name": "Romy Jans",
+      "text": "Komt wel goed, en zo niet: dan toch!"
+    },
+    {
+      "name": "Rosa",
+      "text": "Op sidequest!"
+    },
+    {
+      "name": "Ruben",
+      "text": "Zonder bier, geen plezier!"
+    },
+    {
+      "name": "Sann",
+      "text": "Het leven is leuk ook al ben je lang"
+    },
+    {
+      "name": "Simon",
+      "text": "Liever te dik in de kist (rip René)"
+    },
+    {
+      "name": "Sophie",
+      "text": "Ik maak goeie herinneringen, ook al vergeet ik ze soms"
+    },
+    {
+      "name": "Sophie",
+      "text": "Je leeft maar 1 x"
+    },
+    {
+      "name": "sven",
+      "text": "go with the flow"
+    },
+    {
+      "name": "Thijmen",
+      "text": "Liever 10 aperol achter de kiezen, dan 1 in mn hand"
+    },
+    {
+      "name": "Tijn",
+      "text": "het komt wel goed"
+    },
+    {
+      "name": "Veerle",
+      "text": "Veerle AKA fearless"
+    },
+    {
+      "name": "Verena",
+      "text": "We zien wel en anders kijken we nog even."
+    },
+    {
+      "name": "Vincent",
+      "text": "Sometimes maybe good sometimes maybe shit"
+    },
+    {
+      "name": "Vrienden noemen me Wout, dus zeg maar gewoon Wouter",
+      "text": "Als iedereen aan zichzelf denkt, wordt er aan iedereen gedacht"
+    },
+    {
+      "name": "Willemijn",
+      "text": "You can never be overdressed or overeducated"
+    },
+    {
+      "name": "Ymke",
+      "text": "Uhhhhhh"
+    },
+    {
+      "name": "Yvet",
+      "text": "Als het niet goed komt komt het ook goed"
+    },
+    {
+      "name": "Yvette",
+      "text": "Opgeven is geen optie"
+    }
+  ],
+  "hacks": [
+    {
+      "name": "Aebe",
+      "text": "Clean as you go, liever na elk gebruik vlug een doekje dan aan het eind van de dag/week met de schrobber erdoor"
+    },
+    {
+      "name": "Alexandra",
+      "text": "Doe een bakje voor gebruikte Nespresso-cupjes naast je koffiezetapparaat en leeg dat direct na het koffiezetten. Dat scheelt bij het schoonmaken van het lekbakje."
+    },
+    {
+      "name": "Amber",
+      "text": "Potten openmaken met schoonmaak handschoenen aan voor extra grip"
+    },
+    {
+      "name": "Annabel",
+      "text": "Neem een whiteboard om alles bij te houden!"
+    },
+    {
+      "name": "Anouk3",
+      "text": "Zakjes met geurparels in je kledingkast, witte kleding weer wit krijgen met blauw spoelmiddel, je kleding glad föhnen i.p.v. strijken, als je een kat hebt en een stoffen bank: je krijgt hem weer als nieuw met een ontpil apparaatje"
+    },
+    {
+      "name": "Biko",
+      "text": "Je bestie inhuren xoxo"
+    },
+    {
+      "name": "Cait",
+      "text": "Ik heb al mn taken in een app staan zodat ik niet vergeet hoe lang geleden ik ze heb gedaan 🔥"
+    },
+    {
+      "name": "Carine",
+      "text": "Eerst met droge gele doek afnemen dan met die citroendoekjes gelijk ook geurtje erbij"
+    },
+    {
+      "name": "Carlijn",
+      "text": "Visite uitnodigen, aka verplichting om op te ruimen en schoon te maken"
+    },
+    {
+      "name": "Cejas",
+      "text": "Heet water met soda door je doucheputje spoelen om hem te ontstoppen van lang haar"
+    },
+    {
+      "name": "Chantie",
+      "text": "Ik heb geen idee"
+    },
+    {
+      "name": "Chris",
+      "text": "Neem een vaatwasser,droger,robotstofzuiger, en eeuhh een vriendin"
+    },
+    {
+      "name": "Coenraad",
+      "text": "Neem een schoonmaakster"
+    },
+    {
+      "name": "Damian",
+      "text": "De buurman gaat het niet voor je doen, dus move your ass en haal de vuilnisbelt uit huis"
+    },
+    {
+      "name": "Daphne",
+      "text": "Vergeet niet elke maand een lege kookwas te draaien met soda zodat je wasmachine schoon blijft van binnen"
+    },
+    {
+      "name": "Darth vader",
+      "text": "Destroy the Temple"
+    },
+    {
+      "name": "Dave",
+      "text": "Automatische stofzuiger for the win"
+    },
+    {
+      "name": "Denice",
+      "text": "Koop een stoomreiniger"
+    },
+    {
+      "name": "Duncan",
+      "text": "Ik hoor graag tips"
+    },
+    {
+      "name": "Emma",
+      "text": "Nodig visite uit. Ineens is je huis in een uur brandschoon 🥸"
+    },
+    {
+      "name": "Esther",
+      "text": "Baking soda"
+    },
+    {
+      "name": "Femke",
+      "text": "Ik ben hier nog niet volwassen genoeg voor sorry"
+    },
+    {
+      "name": "Floor",
+      "text": "Waspoeder of geurparels opzuigen met de stofzuiger, zodat de stofzuiger tijdens gebruik een frisse geur verspreidt door je huis... God wat degelijk dit."
+    },
+    {
+      "name": "Guido",
+      "text": "Met een andere sticker kan je stickerresten verwijderen"
+    },
+    {
+      "name": "Hanna",
+      "text": "Baking soda"
+    },
+    {
+      "name": "Hugo",
+      "text": "Uitstellen, hopen dat het op magische wijze vanzelf schoonwordt, toch uiteindelijk maar schoonmaken"
+    },
+    {
+      "name": "Ilona",
+      "text": "Plaatje opzetten, geef jezelf de hele plaat om keihard te schoonmaken en daarna mag je ‘vrij’"
+    },
+    {
+      "name": "Inge",
+      "text": "Baking Soda helpt je witte kleding wit te houden én je putje schoon te maken. Cheap but good."
+    },
+    {
+      "name": "Iris",
+      "text": "Je was opvouwen zo lang uitstellen tot je jezelf erin kan begraven"
+    },
+    {
+      "name": "Ivo",
+      "text": "De bovenkant van de keukenkastjes makkelijk kunnen schoonmaken"
+    },
+    {
+      "name": "Jay",
+      "text": "Doe overbodige spullen weg, dat maakt afstoffen makkelijker"
+    },
+    {
+      "name": "jelle",
+      "text": "Azijn gebruiken met schoonmaken"
+    },
+    {
+      "name": "Jenny",
+      "text": "ik heb een kleine bureau stofzuiger, maakt m'n leven beter"
+    },
+    {
+      "name": "Jenske",
+      "text": "Per ruimte schoonmaken, veel motiverender"
+    },
+    {
+      "name": "Jolie",
+      "text": "Vlekkenpen van de Wibra in je tas voor kleine vlekken die je onderweg maakt"
+    },
+    {
+      "name": "Joost",
+      "text": "Koken voor meerdere dagen"
+    },
+    {
+      "name": "Julia",
+      "text": "Muziek aan en gaannn"
+    },
+    {
+      "name": "Juliee",
+      "text": "Steek lucifers aan uitblazen en als een soort wierook stokje om de wc heen halen. Nergens meer vieze geurtjes!"
+    },
+    {
+      "name": "Juul",
+      "text": "Je petten wassen in de vaatwasser. Top rek, half blokje. Wel even checken of de klep van je pet niet van karton is 😆"
+    },
+    {
+      "name": "Kasper",
+      "text": "Tandenstokers fixen meer dan je denkt"
+    },
+    {
+      "name": "KawaMootje",
+      "text": "Vuilniszakrol vast laten zitten en in de emmer laten"
+    },
+    {
+      "name": "Kelly",
+      "text": "Neem een schoonmaakster"
+    },
+    {
+      "name": "Kiwi",
+      "text": "Schoonmak(st)er inhuren✌🏻"
+    },
+    {
+      "name": "Liza",
+      "text": "Uh als je vlees en kip enz invriest dan kan je het heel makkelijk heel dun snijden! En als je gember invriest kan je het makkelijk raspen zonder vezel troep :D"
+    },
+    {
+      "name": "Lyn",
+      "text": "Heet water in de gootsteen tegen fruitvliegjes"
+    },
+    {
+      "name": "Maas",
+      "text": "Naar papa of mama rennen en dan heel hard BAH schreeuwen, dan wordt het vanzelf schoon."
+    },
+    {
+      "name": "Marieke",
+      "text": "Ossengalzeep voor vlekken"
+    },
+    {
+      "name": "Marieke, Riekje, Salmarieke",
+      "text": "Was je handen en maak niks vies xx, ik ben ook gewoon hier voor de notities."
+    },
+    {
+      "name": "Marinda",
+      "text": "Ik schrijf even mee"
+    },
+    {
+      "name": "Marit",
+      "text": "Er is niks zo permanent als een tijdelijke oplossing dus fix t gelijk goed als je toch bezig bent"
+    },
+    {
+      "name": "Mark",
+      "text": "Uitstellen 😂"
+    },
+    {
+      "name": "Mark of hé lange",
+      "text": "Jaaa, dat doe ik zometeen….. (en dan is het al gebeurt)"
+    },
+    {
+      "name": "Marlon",
+      "text": "Niet pissen als je net chloor in de wc hebt gedaan"
+    },
+    {
+      "name": "Marrrr",
+      "text": "Ik maak nooit schoon"
+    },
+    {
+      "name": "mel",
+      "text": "uh… als je je planten water geeft dan gaan ze (meestal) niet dood… idk"
+    },
+    {
+      "name": "Mieke",
+      "text": "Gewoon ontkennen dat het probleem er is"
+    },
+    {
+      "name": "Milan",
+      "text": "Natuurazijn kan meer dan je denkt"
+    },
+    {
+      "name": "Milan 🥳",
+      "text": "Ruim je zooi zo snel mogelijk op waardoor de grote schoonmaak niet zo erg is"
+    },
+    {
+      "name": "Mirrin",
+      "text": "After sun in de koelkast"
+    },
+    {
+      "name": "Rebecca",
+      "text": "Je 2jarige wijsmaken dat het huishouden een spelletje is"
+    },
+    {
+      "name": "Rens",
+      "text": "Ontvetter op een theedoek spuiten. Die om een plumeau doen en dan kun je makkelijk je hele afzuiging ontvetten!"
+    },
+    {
+      "name": "Renske",
+      "text": "2010's muziek hard aan dan wordt t tenminste n feestje tijdens t opruimen!!"
+    },
+    {
+      "name": "Renzo",
+      "text": "Zo schoon icm een eufy robotstofzuiger"
+    },
+    {
+      "name": "Romy Jans",
+      "text": "Vind een vent die het doet"
+    },
+    {
+      "name": "Rosa",
+      "text": "Als vrienden komen eten, eindigen met een afwas wedstrijd. Mega grappig en binnen 4 minuten heel de vaat schoon!"
+    },
+    {
+      "name": "Ruben",
+      "text": "Muziek aan en knallen maar"
+    },
+    {
+      "name": "Simon",
+      "text": "Aangekoekte pannen schoonmaken met een Scrub Daddy volgesmeerd met Pink Stuff"
+    },
+    {
+      "name": "Sophie",
+      "text": "Schoonmaakhack: eet de noodles direct uit de pan, zodat je niet nog een bakje extra af moet wassen."
+    },
+    {
+      "name": "Sophie",
+      "text": "Bakje water met citroensap in de magnetron, ff laten stomen en tadaa, een schone magnetron. En de andere tip is... krijg geen kinderen"
+    },
+    {
+      "name": "sven",
+      "text": "het aan je vriendin overlaten"
+    },
+    {
+      "name": "Thijmen",
+      "text": "Of je het nou morgen doet of volgende week, volgende week wordt het toch wel gedaan"
+    },
+    {
+      "name": "Tijn",
+      "text": "als je je bestek sorteert voordat je ze in de vaatwasser doet, gaat uitruimen mega snel"
+    },
+    {
+      "name": "Veerle",
+      "text": "Baking soda verhelpt alles"
+    },
+    {
+      "name": "Verena",
+      "text": "Ossengalzeep voor de vetvlekken. Te koop bij o.a. Dille & Kamille"
+    },
+    {
+      "name": "Vincent",
+      "text": "Zet Piano Man aan. Daardoor ga ik schoonmaken"
+    },
+    {
+      "name": "Vrienden noemen me Wout, dus zeg maar gewoon Wouter",
+      "text": "Ik heb daar mensen voor"
+    },
+    {
+      "name": "Willemijn",
+      "text": "Ik lees mee ✨"
+    },
+    {
+      "name": "Ymke",
+      "text": "Robot stofzuiger halen"
+    },
+    {
+      "name": "Yvette",
+      "text": "Water met wasverzachter om je kleding op te frissen als je het nog niet écht moet wassen"
+    }
+  ],
+  "tips": [
+    {
+      "name": "Amber",
+      "text": "Ik ga nog even in debat met mijn verantwoordelijkheden en of het nog nut heeft om na mijn werk te komen als jullie al gezellig vier uur onderweg zijn met alle gezelligheid."
+    },
+    {
+      "name": "Annabel",
+      "text": "2 is meer dan 1"
+    },
+    {
+      "name": "Anouk3",
+      "text": "Nee love you xx"
+    },
+    {
+      "name": "Biko",
+      "text": "MOOFFFFELLLLLLLLL"
+    },
+    {
+      "name": "Chris",
+      "text": "Pfiep pfap paparpapa, pupurupuprup, poe paaa"
+    },
+    {
+      "name": "Daphne",
+      "text": "Spoon is a species of bowl"
+    },
+    {
+      "name": "Floor",
+      "text": "Ik wil mijn spreekbeurt graag houden over de cavia die ik nooit gehad heb."
+    },
+    {
+      "name": "Giulia",
+      "text": "Geen glas achterlaten! Kinderen gooien dat kapot op het basketbalveld"
+    },
+    {
+      "name": "Hugo",
+      "text": "Ik ben heel erg benieuwd en heb er veel zin in!"
+    },
+    {
+      "name": "Inge",
+      "text": "Kun je valsspelen bij het behalen van je zwemdiploma('s)?"
+    },
+    {
+      "name": "Ivo",
+      "text": "Geen idee, mijn basketbal ligt achterin mijn auto"
+    },
+    {
+      "name": "Jolie",
+      "text": "Sli sla slay"
+    },
+    {
+      "name": "Julia",
+      "text": "Jullie zijn top!"
+    },
+    {
+      "name": "KawaMootje",
+      "text": "Herinner mensen er nog even aan dat ze niet bang moeten zijn om voor het eerst en vooral alleen te komen."
+    },
+    {
+      "name": "Kiwi",
+      "text": "Is 25 graden warm genoeg voor een bikini borrel?"
+    },
+    {
+      "name": "Lyn",
+      "text": "Wist je dat mannelijke bijen na het paren geen nut meer hebben dus of ze gaan zelf dood of ze worden door de vrouwtjes uit de kolonie gezet? #welovefeminism"
+    },
+    {
+      "name": "Maas",
+      "text": "In hoeverre moeten wilde zwijnen het onderspit delven als zij de veiligheid van mensen in de weg staan omdat zij niet weten hoe te handelen als ze een wild zwijn tegenkomen?"
+    },
+    {
+      "name": "Marieke, Riekje, Salmarieke",
+      "text": "Dankjewel voor het organiseren <3"
+    },
+    {
+      "name": "Marit",
+      "text": "Zin in!! En stap vooral op me af/spreek me aan :) Ik wil dus graag uit m’n eigen bubbel stappen"
+    },
+    {
+      "name": "Marlon",
+      "text": "Wie dit leest is gek"
+    },
+    {
+      "name": "Marrrr",
+      "text": "Plopperdeplop"
+    },
+    {
+      "name": "Rens",
+      "text": "Je had meer de klas in kunnen kijken. Maar wel echt een sterk en goed verhaal!!"
+    },
+    {
+      "name": "Romy Jans",
+      "text": "Love youu"
+    },
+    {
+      "name": "Rosa",
+      "text": "Zijn er andere uit Rotterdam?"
+    },
+    {
+      "name": "Simon",
+      "text": "Elke wasbeer heb een staart, maar niet elke staart lust een biertje"
+    },
+    {
+      "name": "Sophie",
+      "text": "Mijn eerste borrel, heb er zin in!"
+    },
+    {
+      "name": "Sophie",
+      "text": "Ik durf niet goed te gaan. Ik ben dus lang, net als jullie,maar ook breed en wat ouder 36)."
+    },
+    {
+      "name": "sven",
+      "text": "ik ga vanaf september bij klm werken!!! wie wil er met mij ipb’en?"
+    },
+    {
+      "name": "Verena",
+      "text": "ZIN INNNNN"
+    },
+    {
+      "name": "Vincent",
+      "text": "De echidna (wat Sonic technisch gezien is) heeft 4 penissen"
+    },
+    {
+      "name": "Willemijn",
+      "text": "Ik wil graag met Iris tongen, waar kan ik me aanmelden?"
+    },
+    {
+      "name": "Ymke",
+      "text": "Mag er een ik weet niet hoeveelste borrel dit is optie op dat lijstje"
+    },
+    {
+      "name": "Yvet",
+      "text": "Als je een dikke tepel hebt maar kleine areola’s, heb je dan grote tepels? En als je dunne tepels hebt en hele grote areola’s, heb je dan ook grote tepels?"
+    }
+  ],
+  "fries": {
+    "parts": [
+      {
+        "label": "Freely given",
+        "count": 44
+      },
+      {
+        "label": "Reversible",
+        "count": 41
+      },
+      {
+        "label": "Informed",
+        "count": 43
+      },
+      {
+        "label": "Enthusiastic",
+        "count": 39
+      },
+      {
+        "label": "Specific",
+        "count": 44
+      },
+      {
+        "label": "FRIES (patat!)",
+        "count": 68
+      }
+    ],
+    "fullFries": 34,
+    "total": 85
+  },
+  "handhaving": [
+    {
+      "label": "Rustig → verwijs naar borrelorgi",
+      "count": 52
+    },
+    {
+      "label": "Recruiten als ze lang genoeg zijn",
+      "count": 33
+    },
+    {
+      "label": "Vraag of ze op de groepsfoto willen",
+      "count": 26
+    },
+    {
+      "label": "Geitenkeutels gooien",
+      "count": 13
+    }
+  ],
+  "waste": [
+    {
+      "label": "In de vuilniszakken (braaf)",
+      "count": 59
+    },
+    {
+      "label": "In mijn broekzak als souvenir",
+      "count": 13
+    },
+    {
+      "label": "Cadeautje voor Monica",
+      "count": 11
+    },
+    {
+      "label": "Voeren aan de geiten",
+      "count": 2
+    }
+  ],
+  "pee": [
+    {
+      "label": "Openbare toiletten (braaf)",
+      "count": 63
+    },
+    {
+      "label": "Tegen een andere kompaan",
+      "count": 12
+    },
+    {
+      "label": "Luier om #lifehack",
+      "count": 11
+    },
+    {
+      "label": "Sponsor gemeente €170",
+      "count": 4
+    },
+    {
+      "label": "In de bosjes",
+      "count": 2
+    }
+  ],
+  "vacation": {
+    "destinations": [
+      {
+        "label": "Italië",
+        "coords": [
+          12.5,
+          42.5
+        ],
+        "count": 10
+      },
+      {
+        "label": "Lekker thuis (kikkerland)",
+        "coords": [
+          5.3,
+          52.1
+        ],
+        "count": 8
+      },
+      {
+        "label": "Spanje",
+        "coords": [
+          -3.7,
+          40.4
+        ],
+        "count": 6
+      },
+      {
+        "label": "Duitsland",
+        "coords": [
+          10.4,
+          51.1
+        ],
+        "count": 5
+      },
+      {
+        "label": "Scandinavië",
+        "coords": [
+          15,
+          60
+        ],
+        "count": 5
+      },
+      {
+        "label": "Schotland / UK",
+        "coords": [
+          -3.2,
+          55.9
+        ],
+        "count": 4
+      },
+      {
+        "label": "Azië",
+        "coords": [
+          100,
+          20
+        ],
+        "count": 4
+      },
+      {
+        "label": "Zwitserland",
+        "coords": [
+          8.2,
+          46.8
+        ],
+        "count": 3
+      },
+      {
+        "label": "Portugal",
+        "coords": [
+          -8.2,
+          39.4
+        ],
+        "count": 3
+      },
+      {
+        "label": "Griekenland",
+        "coords": [
+          21.8,
+          39.1
+        ],
+        "count": 3
+      },
+      {
+        "label": "Verre reis (Afrika/VS)",
+        "coords": [
+          20,
+          5
+        ],
+        "count": 3
+      },
+      {
+        "label": "Frankrijk",
+        "coords": [
+          2.3,
+          46.6
+        ],
+        "count": 2
+      },
+      {
+        "label": "Oostenrijk",
+        "coords": [
+          14.5,
+          47.5
+        ],
+        "count": 2
+      },
+      {
+        "label": "Albanië",
+        "coords": [
+          20,
+          41
+        ],
+        "count": 1
+      },
+      {
+        "label": "Curaçao",
+        "coords": [
+          -68.99,
+          12.17
+        ],
+        "count": 1
+      }
+    ]
+  },
+  "excited": [
+    {
+      "name": "Aebe",
+      "text": "Alle motorrijders!"
+    },
+    {
+      "name": "Alexandra",
+      "text": "Ik ken nog niemand"
+    },
+    {
+      "name": "Amber",
+      "text": "Ik ken nog niemand"
+    },
+    {
+      "name": "Annabel",
+      "text": "Brian (BCM)"
+    },
+    {
+      "name": "Anouk3",
+      "text": "Iedereen maar ik kan niet😭😭"
+    },
+    {
+      "name": "Biko",
+      "text": "Kechiesssss"
+    },
+    {
+      "name": "Cait",
+      "text": "De borrelorgi 🤙🏼"
+    },
+    {
+      "name": "Carine",
+      "text": "Marinda!"
+    },
+    {
+      "name": "Carlijn",
+      "text": "Goes"
+    },
+    {
+      "name": "Cejas",
+      "text": "Annabel"
+    },
+    {
+      "name": "Chantie",
+      "text": "Genoeg!"
+    },
+    {
+      "name": "Chris",
+      "text": "Alle mael"
+    },
+    {
+      "name": "Coenraad",
+      "text": "De 30+'ers"
+    },
+    {
+      "name": "Damian",
+      "text": "Ik ken nog niemand :')"
+    },
+    {
+      "name": "Daphne",
+      "text": "Ymke en Tijn!"
+    },
+    {
+      "name": "Darth vader",
+      "text": "Obi wan"
+    },
+    {
+      "name": "Dave",
+      "text": "FEMKE, JOLIE, QIWI, CARINE, MARIJKE"
+    },
+    {
+      "name": "Denice",
+      "text": "Iedereen!"
+    },
+    {
+      "name": "Duncan",
+      "text": "Allemaal"
+    },
+    {
+      "name": "Emma",
+      "text": "Ik vind het leuk dat Thijmen weer komt!!!"
+    },
+    {
+      "name": "Esther",
+      "text": "Nieuwe mensen ontmoeten"
+    },
+    {
+      "name": "Femke",
+      "text": "Iedereeeeeeen"
+    },
+    {
+      "name": "Floor",
+      "text": "Goede vraag!"
+    },
+    {
+      "name": "Gerlieke",
+      "text": "De (k-)Opper-kompaan"
+    },
+    {
+      "name": "Giulia",
+      "text": "Q als ze komt"
+    },
+    {
+      "name": "Guido",
+      "text": "Nijmegen gang, Utrecht gang, en toch stiekem ook wat brabo's"
+    },
+    {
+      "name": "Hugo",
+      "text": "Ik verheug me om nieuwe mensen te leren kennen, omdat dit de eerste keer is :)"
+    },
+    {
+      "name": "Ilona",
+      "text": "Carlijn omygod"
+    },
+    {
+      "name": "Inge",
+      "text": "Tjerry"
+    },
+    {
+      "name": "Iris",
+      "text": "Willemijn!"
+    },
+    {
+      "name": "Ivo",
+      "text": "Iedereen natuurlijk"
+    },
+    {
+      "name": "Jay",
+      "text": "Ruben, Tijn"
+    },
+    {
+      "name": "jelle",
+      "text": "ivo"
+    },
+    {
+      "name": "Jenny",
+      "text": "Maas toch wel"
+    },
+    {
+      "name": "Jolie",
+      "text": "Simpsss"
+    },
+    {
+      "name": "Joost",
+      "text": "Sander"
+    },
+    {
+      "name": "Julia",
+      "text": "Iedereeeeennn"
+    },
+    {
+      "name": "Juliee",
+      "text": "De brabooo gangers"
+    },
+    {
+      "name": "Juul",
+      "text": "Kennismaken met iedereen en Jolie natuurlijk!"
+    },
+    {
+      "name": "Kasper",
+      "text": "Ik ken nog niemand 😱"
+    },
+    {
+      "name": "KawaMootje",
+      "text": "Allemaal"
+    },
+    {
+      "name": "Kelly",
+      "text": "Romy, Marnica, Emma en 30+ singles"
+    },
+    {
+      "name": "Kiwi",
+      "text": "Liquicity gang, Quirine, Averechts, Tjerry, EmmaVanDeSingles, de Maiden, Sonny, nog veeuuuulllll meer!"
+    },
+    {
+      "name": "Lonneke",
+      "text": "Nikita"
+    },
+    {
+      "name": "Lyn",
+      "text": "Lieve, Eef, Doris, en de overige nimwegenaren ofcourse"
+    },
+    {
+      "name": "Maas",
+      "text": "Papa, mama en al mijn tantes!"
+    },
+    {
+      "name": "Marieke",
+      "text": "Iedereen"
+    },
+    {
+      "name": "Marieke, Riekje, Salmarieke",
+      "text": "Iedereen <3"
+    },
+    {
+      "name": "Marinda",
+      "text": "Blote tieten eindelijk weer compleet en carine natuurlijk!"
+    },
+    {
+      "name": "Marit",
+      "text": "Ik wil juist nieuwe mensen leren kennen!! Liquicity gang ook alvast even ontmoeten voor het festival de week daarop :)"
+    },
+    {
+      "name": "Mark",
+      "text": "Iedereen natuurlijk"
+    },
+    {
+      "name": "Marlon",
+      "text": "Blote tieten!!!!!!!!!"
+    },
+    {
+      "name": "Marrrr",
+      "text": "Simps, snollies, kellebel"
+    },
+    {
+      "name": "mel",
+      "text": "iedereen ofc"
+    },
+    {
+      "name": "Mieke",
+      "text": "Geen idee nog"
+    },
+    {
+      "name": "Milan",
+      "text": "Kirsty en Tijn"
+    },
+    {
+      "name": "Milan 🥳",
+      "text": "Jolie met de augurken"
+    },
+    {
+      "name": "Mirrin",
+      "text": "Jan!!! Ik heb een cadeautje voor ‘m 🤫"
+    },
+    {
+      "name": "Rebecca",
+      "text": "Esther"
+    },
+    {
+      "name": "Rens",
+      "text": "SJENONOOO"
+    },
+    {
+      "name": "Renske",
+      "text": "Ik ken nog niemandd;) dus iedereen!!"
+    },
+    {
+      "name": "Renzo",
+      "text": "Robin"
+    },
+    {
+      "name": "Romy Jans",
+      "text": "Allemaal"
+    },
+    {
+      "name": "Rosa",
+      "text": "Thomas (was wel lam toen ik hem zag, dus geen idee of ik hem herken)"
+    },
+    {
+      "name": "Ruben",
+      "text": "Iedereen natuurlijk"
+    },
+    {
+      "name": "Simon",
+      "text": "Iedereen"
+    },
+    {
+      "name": "Sophie",
+      "text": "Iedereen natuurlijk! Eindelijk lange mensen!!!!"
+    },
+    {
+      "name": "Sophie",
+      "text": "Ik kom niet en ben nog nooit geweest."
+    },
+    {
+      "name": "sven",
+      "text": "willemijn (en ratje)"
+    },
+    {
+      "name": "Thijmen",
+      "text": "Poeh, zijn er een stuk of 6/7"
+    },
+    {
+      "name": "Tijn",
+      "text": "ie de reeeeeeeen"
+    },
+    {
+      "name": "Veerle",
+      "text": "Roos"
+    },
+    {
+      "name": "Verena",
+      "text": "Mijn lieve vriendinnetjesssss"
+    },
+    {
+      "name": "Vincent",
+      "text": "Bitchell"
+    },
+    {
+      "name": "Vrienden noemen me Wout, dus zeg maar gewoon Wouter",
+      "text": "Kiwi + slagroom"
+    },
+    {
+      "name": "Willemijn",
+      "text": "Ier"
+    },
+    {
+      "name": "Ymke",
+      "text": "de liq gang"
+    },
+    {
+      "name": "Yvette",
+      "text": "Ik ken nog niemand, dus benieuwd om iedereen te leren kennen"
+    }
+  ],
+  "miss": [
+    {
+      "name": "Aebe",
+      "text": "Iedereen komt gewoon, toch?"
+    },
+    {
+      "name": "Alexandra",
+      "text": "-,-"
+    },
+    {
+      "name": "Amber",
+      "text": "Wat je niet kent, kan je niet missen?"
+    },
+    {
+      "name": "Annabel",
+      "text": "F*ck jullie, ik geniet van die banger!!!!"
+    },
+    {
+      "name": "Anouk3",
+      "text": "Mezelf"
+    },
+    {
+      "name": "Biko",
+      "text": "verdomme ik trapte er in."
+    },
+    {
+      "name": "Cait",
+      "text": "iedereen :)"
+    },
+    {
+      "name": "Carine",
+      "text": "Iedereen die er niet bij kan zijn :("
+    },
+    {
+      "name": "Carlijn",
+      "text": "???"
+    },
+    {
+      "name": "Cejas",
+      "text": "Iedereen die er niet is"
+    },
+    {
+      "name": "Chantie",
+      "text": "Iedereen uit Drenthe"
+    },
+    {
+      "name": "Chris",
+      "text": "Hier!"
+    },
+    {
+      "name": "Coenraad",
+      "text": "Noemand (sorry)"
+    },
+    {
+      "name": "Daphne",
+      "text": "Lucasss"
+    },
+    {
+      "name": "Darth vader",
+      "text": "Luke skywalker. May the force be with him"
+    },
+    {
+      "name": "Dave",
+      "text": "Ik weet niet wie er afwezig is..."
+    },
+    {
+      "name": "Denice",
+      "text": "Iedereen die afwezig is"
+    },
+    {
+      "name": "Duncan",
+      "text": "Degene die niet komen"
+    },
+    {
+      "name": "Emma",
+      "text": "Babe Ryry :("
+    },
+    {
+      "name": "Esther",
+      "text": "Girl idk"
+    },
+    {
+      "name": "Femke",
+      "text": "Iedereen die waagt niet te komen"
+    },
+    {
+      "name": "Floor",
+      "text": "Ook een hele goede vraag!"
+    },
+    {
+      "name": "Gerlieke",
+      "text": "Sjon"
+    },
+    {
+      "name": "Giulia",
+      "text": "Q als ze niet komt"
+    },
+    {
+      "name": "Guido",
+      "text": "Ik vind het een leuk nummer dus mij maakt het me niet uit!"
+    },
+    {
+      "name": "Ilona",
+      "text": "Ik weet eigenlijk niet wie er niet komt oeps"
+    },
+    {
+      "name": "Iris",
+      "text": "Wie durft er niet te komen?"
+    },
+    {
+      "name": "Ivo",
+      "text": "Geen idee, ik ben pas 2 keer geweest"
+    },
+    {
+      "name": "Jay",
+      "text": "Anouk"
+    },
+    {
+      "name": "Jenny",
+      "text": "Lange jan, efteling geeft hem nooit dagje vrij, echt jammer"
+    },
+    {
+      "name": "Jolie",
+      "text": "Eef :("
+    },
+    {
+      "name": "Joost",
+      "text": "Ivo"
+    },
+    {
+      "name": "Juliee",
+      "text": "Iedereen die niet komt van mijn vriendengroep!!"
+    },
+    {
+      "name": "Juul",
+      "text": "IDK 🤔"
+    },
+    {
+      "name": "Kelly",
+      "text": "Niemand x"
+    },
+    {
+      "name": "Kiwi",
+      "text": "Niet alleen afwezige kompanen maar ook de aanwezige die ik alsnog niet spreek"
+    },
+    {
+      "name": "Lonneke",
+      "text": "Anouk"
+    },
+    {
+      "name": "Lyn",
+      "text": "Manou :("
+    },
+    {
+      "name": "Maas",
+      "text": "Waar zijn Joya en Lynthe?? Ik wil een kabouter kompanen groep"
+    },
+    {
+      "name": "Marieke",
+      "text": "Euhm.... wie komen er niet dan?"
+    },
+    {
+      "name": "Marieke, Riekje, Salmarieke",
+      "text": "Ik voel mij ontzettend in de maling genomen, maar idk beter is iedereen er gewoon?!"
+    },
+    {
+      "name": "Marinda",
+      "text": "Jij die dit leest en niet komt"
+    },
+    {
+      "name": "Marit",
+      "text": "Roos"
+    },
+    {
+      "name": "Mark",
+      "text": "Iedereeen die afwezig is"
+    },
+    {
+      "name": "Mark of hé lange",
+      "text": "Henk"
+    },
+    {
+      "name": "Marlon",
+      "text": "Iedereen"
+    },
+    {
+      "name": "Marrrr",
+      "text": "Lot en viv"
+    },
+    {
+      "name": "mel",
+      "text": "ik heb geen idee wie er niet gaan maar boooo tomato tomato"
+    },
+    {
+      "name": "Mieke",
+      "text": "Geen idee nog natuurlijk"
+    },
+    {
+      "name": "Milan",
+      "text": "Annemiek!!"
+    },
+    {
+      "name": "Mirrin",
+      "text": "Tot de volgende!!"
+    },
+    {
+      "name": "Rebecca",
+      "text": "Aiiaiii"
+    },
+    {
+      "name": "Rens",
+      "text": "GODVERDOMME WAAROM TRAP IK HIER IN. maar ik mis alle cuties"
+    },
+    {
+      "name": "Renske",
+      "text": "Ken nog niemand:("
+    },
+    {
+      "name": "Romy Jans",
+      "text": "Allemaal"
+    },
+    {
+      "name": "Ruben",
+      "text": "Inge"
+    },
+    {
+      "name": "Simon",
+      "text": "Ehm"
+    },
+    {
+      "name": "Sophie",
+      "text": "Ik ken nog niemand, dus nog niemand om te missen :)"
+    },
+    {
+      "name": "sven",
+      "text": "emma (possessed by twins)"
+    },
+    {
+      "name": "Thijmen",
+      "text": "Oohh geprankt!"
+    },
+    {
+      "name": "Tijn",
+      "text": "de rest"
+    },
+    {
+      "name": "Veerle",
+      "text": "No idea"
+    },
+    {
+      "name": "Verena",
+      "text": "Hopelijk niemand?"
+    },
+    {
+      "name": "Vincent",
+      "text": "Loïs"
+    },
+    {
+      "name": "Vrienden noemen me Wout, dus zeg maar gewoon Wouter",
+      "text": "Uit het oog, uit het hart"
+    },
+    {
+      "name": "Willemijn",
+      "text": "Anouk wtf"
+    },
+    {
+      "name": "Ymke",
+      "text": "wie komt er niet ??"
+    },
+    {
+      "name": "Yvet",
+      "text": "Meid weet ik toch veel"
+    }
+  ]
+}
