@@ -4,7 +4,7 @@ import {
   type MouseEvent as ReactMouseEvent,
   type PointerEvent as ReactPointerEvent,
   type ReactNode,
-  type WheelEvent as ReactWheelEvent,
+  useEffect,
   useRef,
   useState,
 } from "react";
@@ -33,6 +33,8 @@ export default function Zoomable({
 }) {
   const boxRef = useRef<HTMLDivElement>(null);
   const [t, setT] = useState<Transform>({ scale: 1, x: 0, y: 0 });
+  const tRef = useRef(t);
+  tRef.current = t;
   const pointers = useRef<Map<number, { x: number; y: number }>>(new Map());
   const pinch = useRef<{ dist: number; mid: { x: number; y: number } } | null>(null);
   const drag = useRef<{ px: number; py: number; x: number; y: number } | null>(null);
@@ -53,7 +55,9 @@ export default function Zoomable({
     });
 
   const onPointerDown = (e: ReactPointerEvent) => {
-    (e.target as Element).setPointerCapture?.(e.pointerId);
+    // capture on the box (not the SVG child under the finger) so every move
+    // event for this pointer reliably reaches our handlers
+    boxRef.current?.setPointerCapture?.(e.pointerId);
     const p = local(e.clientX, e.clientY);
     pointers.current.set(e.pointerId, p);
     if (pointers.current.size === 2) {
@@ -111,11 +115,23 @@ export default function Zoomable({
     if (pointers.current.size === 0) drag.current = null;
   };
 
-  const onWheel = (e: ReactWheelEvent) => {
-    e.preventDefault();
-    const p = local(e.clientX, e.clientY);
-    zoomAround(t.scale * (e.deltaY < 0 ? 1.15 : 1 / 1.15), p.x, p.y);
-  };
+  // Native non-passive wheel listener so preventDefault actually works.
+  // Only hijack the wheel on a trackpad pinch (ctrlKey) or once already zoomed;
+  // otherwise let the page scroll past the map.
+  useEffect(() => {
+    const el = boxRef.current;
+    if (!el) return;
+    const onWheelNative = (e: WheelEvent) => {
+      const scale = tRef.current.scale;
+      if (!e.ctrlKey && scale === 1) return;
+      e.preventDefault();
+      const r = el.getBoundingClientRect();
+      zoomAround(scale * (e.deltaY < 0 ? 1.12 : 1 / 1.12), e.clientX - r.left, e.clientY - r.top);
+    };
+    el.addEventListener("wheel", onWheelNative, { passive: false });
+    return () => el.removeEventListener("wheel", onWheelNative);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const onDoubleClick = (e: ReactMouseEvent) => {
     const p = local(e.clientX, e.clientY);
@@ -139,11 +155,15 @@ export default function Zoomable({
         onPointerMove={onPointerMove}
         onPointerUp={endPointer}
         onPointerCancel={endPointer}
-        onPointerLeave={endPointer}
-        onWheel={onWheel}
         onDoubleClick={onDoubleClick}
         className="relative w-full overflow-hidden rounded-2xl"
-        style={{ touchAction: "none", cursor: t.scale > 1 ? "grab" : "default" }}
+        style={{
+          // 1×: let the page scroll vertically (two-finger pinch still reaches
+          // us since pinch-zoom isn't reserved by pan-y). Zoomed in: claim all
+          // gestures so one-finger drag pans the map instead of scrolling.
+          touchAction: t.scale > 1 ? "none" : "pan-y",
+          cursor: t.scale > 1 ? "grab" : "default",
+        }}
       >
         <div
           style={{
