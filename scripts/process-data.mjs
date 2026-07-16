@@ -111,14 +111,32 @@ function extractCity(s) {
   return head ? head.charAt(0).toUpperCase() + head.slice(1) : null;
 }
 
+// ---- WIE TELT MEE IN DE GEMIDDELDEN ----------------------------------------
+// Kabouter-kompanen (zoals Maas, 1 jaar / 95 cm) trekken de gemiddelden scheef.
+// Eén expliciete regel, gedeeld door lengte én leeftijd, zodat iemand niet in
+// het ene gemiddelde wél en het andere niet meetelt. Ze blijven overal ELDERS
+// gewoon staan (jongste/kleinste kompaan, quotes, kaart, ...).
+const isGrownUp = (r) => {
+  const age = parseInt(clean(r[C.AGE]), 10);
+  const h = parseInt(clean(r[C.HEIGHT]), 10);
+  const ageOk = !Number.isFinite(age) || age >= 18;
+  const hOk = !Number.isFinite(h) || h >= 150;
+  return ageOk && hOk;
+};
+const grownUpNames = new Set(records.filter(isGrownUp).map((r) => firstName(r[C.NAME])));
+const kabouters = records
+  .filter((r) => !isGrownUp(r))
+  .map((r) => `${firstName(r[C.NAME])} (${clean(r[C.AGE])}jr, ${clean(r[C.HEIGHT])}cm)`);
+
 // ---- HEIGHT ----------------------------------------------------------------
 const heights = records
   .map((r) => ({ name: firstName(r[C.NAME]), h: parseInt(r[C.HEIGHT], 10) }))
   .filter((x) => Number.isFinite(x.h) && x.h > 0);
 const hSorted = [...heights].sort((a, b) => b.h - a.h);
-const adults = heights.filter((x) => x.h >= 150);
+const adults = heights.filter((x) => grownUpNames.has(x.name));
 const heightStats = {
   count: heights.length,
+  avgBasis: adults.length, // hoeveel kompanen zitten er in het gemiddelde
   avg: Math.round(adults.reduce((s, x) => s + x.h, 0) / adults.length),
   avgAll: Math.round(heights.reduce((s, x) => s + x.h, 0) / heights.length),
   tallest: hSorted[0],
@@ -143,7 +161,7 @@ const ages = records
   .map((r) => ({ name: firstName(r[C.NAME]), a: parseInt(clean(r[C.AGE]), 10) }))
   .filter((x) => Number.isFinite(x.a));
 const aSorted = [...ages].sort((a, b) => b.a - a.a);
-const grownAges = ages.filter((x) => x.a >= 18);
+const grownAges = ages.filter((x) => grownUpNames.has(x.name));
 const ageStats = {
   avg: Math.round(grownAges.reduce((s, x) => s + x.a, 0) / grownAges.length),
   oldest: aSorted[0],
@@ -392,7 +410,8 @@ fs.writeFileSync(OUT, JSON.stringify(out, null, 2));
 
 // ---- console summary (for verification) -----------------------------------
 console.log(`✓ ${records.length} respondenten verwerkt → ${path.relative(ROOT, OUT)}`);
-console.log(`  lengte: avg(volw) ${heightStats.avg}cm, langste ${heightStats.tallest.name} ${heightStats.tallest.h}, kortste ${heightStats.shortest.name} ${heightStats.shortest.h}`);
+console.log(`  buiten de gemiddelden (kabouters): ${kabouters.join(", ") || "niemand"}`);
+console.log(`  lengte: avg ${heightStats.avg}cm over ${adults.length} kompanen, langste ${heightStats.tallest.name} ${heightStats.tallest.h}, kortste ${heightStats.shortest.name} ${heightStats.shortest.h}`);
 console.log(`  leeftijd: avg ${ageStats.avg}, oudste ${ageStats.oldest.name} ${ageStats.oldest.a}, jongste ${ageStats.youngest.name} ${ageStats.youngest.a}`);
 console.log(`  steden op kaart: ${originStats.cities.length}, top ${originStats.topCity?.city} (${originStats.topCity?.count})`);
 console.log(`  ongemapte steden: ${originStats.unmapped.join(", ") || "geen"}`);
