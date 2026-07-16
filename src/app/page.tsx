@@ -12,6 +12,7 @@ import WordCloud from "@/components/viz/WordCloud";
 import DotMap from "@/components/viz/DotMap";
 import QuoteCarousel from "@/components/viz/QuoteCarousel";
 import QuoteWall from "@/components/viz/QuoteWall";
+import MemeQuiz from "@/components/viz/MemeQuiz";
 import Zoomable from "@/components/ui/Zoomable";
 
 const d = wrapped;
@@ -255,7 +256,7 @@ export default function Page() {
           <h2 className="display mb-6 text-3xl sm:text-5xl">
             De meme die rent-free in je hoofd woont
           </h2>
-          <QuoteCarousel quotes={d.memes} accent="#ff3d81" interval={3600} />
+          <MemeQuiz quotes={d.memes} accent="#ff3d81" />
         </Slide>
 
         {/* ───────────── ONMISBAAR ───────────── */}
