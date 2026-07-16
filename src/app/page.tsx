@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useSpring } from "motion/react";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import wrapped from "@/data/wrapped.json";
 import Slide from "@/components/Slide";
 import CountUp from "@/components/ui/CountUp";
@@ -27,6 +27,42 @@ export default function Page() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ container: scrollRef });
   const progress = useSpring(scrollYProgress, { stiffness: 120, damping: 30, mass: 0.4 });
+
+  // Remember which slide you were on (localStorage) and restore it on reload.
+  useEffect(() => {
+    const container = scrollRef.current;
+    if (!container) return;
+    const KEY = "borrel34-slide";
+    const slides = Array.from(container.querySelectorAll<HTMLElement>(".slide"));
+    if (!slides.length) return;
+
+    let restoring = true;
+    const saved = Number(localStorage.getItem(KEY));
+    if (Number.isFinite(saved) && saved > 0 && saved < slides.length) {
+      requestAnimationFrame(() => {
+        slides[saved].scrollIntoView({ behavior: "auto" });
+        // let the jump settle before we start recording again
+        setTimeout(() => (restoring = false), 250);
+      });
+    } else {
+      restoring = false;
+    }
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (restoring) return;
+        for (const e of entries) {
+          if (e.isIntersecting && e.intersectionRatio >= 0.6) {
+            const i = slides.indexOf(e.target as HTMLElement);
+            if (i >= 0) localStorage.setItem(KEY, String(i));
+          }
+        }
+      },
+      { root: container, threshold: [0.6] },
+    );
+    slides.forEach((s) => io.observe(s));
+    return () => io.disconnect();
+  }, []);
 
   let n = 0;
   const idx = () => ++n;
