@@ -12,7 +12,10 @@ export default function QuoteWall({
   accent?: string;
 }) {
   return (
-    <div className="columns-1 gap-3 sm:columns-2 lg:columns-3 [column-fill:_balance]">
+    <div
+      className="w-full max-h-[62vh] overflow-y-auto columns-1 gap-3 px-1 sm:columns-2 lg:columns-3 [column-fill:_balance]"
+      style={{ touchAction: "pan-y", scrollbarWidth: "thin" }}
+    >
       {quotes.map((q, i) => (
         <motion.figure
           key={`${q.name}-${i}`}

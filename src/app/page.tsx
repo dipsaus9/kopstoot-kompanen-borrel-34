@@ -12,6 +12,7 @@ import WordCloud from "@/components/viz/WordCloud";
 import DotMap from "@/components/viz/DotMap";
 import QuoteCarousel from "@/components/viz/QuoteCarousel";
 import QuoteWall from "@/components/viz/QuoteWall";
+import Zoomable from "@/components/ui/Zoomable";
 
 const d = wrapped;
 const tuple = (c: number[]) => [c[0], c[1]] as [number, number];
@@ -146,17 +147,19 @@ export default function Page() {
           <p className="mb-6 opacity-80">
             {d.origin.topCity.city} is de thuisbasis met {d.origin.topCity.count} kompanen.
           </p>
-          <DotMap
-            points={d.origin.cities.map((c) => ({
-              label: c.city,
-              count: c.count,
-              coords: tuple(c.coords),
-            }))}
-            bounds={NL_BOUNDS}
-            origin={tuple(d.origin.topCity.coords)}
-            accent="#35e0ff"
-            labelTop={7}
-          />
+          <Zoomable accent="#35e0ff" className="max-w-2xl">
+            <DotMap
+              points={d.origin.cities.map((c) => ({
+                label: c.city,
+                count: c.count,
+                coords: tuple(c.coords),
+              }))}
+              bounds={NL_BOUNDS}
+              origin={tuple(d.origin.topCity.coords)}
+              accent="#35e0ff"
+              labelTop={7}
+            />
+          </Zoomable>
         </Slide>
 
         {/* ───────────── BORREL-ERVARING ───────────── */}
@@ -221,7 +224,11 @@ export default function Page() {
           <p className="mb-8 opacity-80">
             {d.dish.tally[0].dish} wint met afstand — {d.dish.tally[0].count} keer genoemd.
           </p>
-          <WordCloud words={d.dish.words} palette={CLOUD_PALETTE} />
+          <Zoomable accent="#ff8a3d" className="max-w-3xl" hint="Zoom in voor de kleine woorden">
+            <div className="p-2">
+              <WordCloud words={d.dish.words} palette={CLOUD_PALETTE} />
+            </div>
+          </Zoomable>
         </Slide>
 
         {/* ───────────── IKEA ───────────── */}
@@ -260,7 +267,11 @@ export default function Page() {
           <h2 className="display mb-8 text-4xl sm:text-6xl">
             Wat mag écht niet ontbreken op een parkborrel?
           </h2>
-          <WordCloud words={d.essentials.words} palette={CLOUD_PALETTE} />
+          <Zoomable accent="#c6ff3d" className="max-w-3xl" hint="Zoom in voor de kleine woorden">
+            <div className="p-2">
+              <WordCloud words={d.essentials.words} palette={CLOUD_PALETTE} />
+            </div>
+          </Zoomable>
         </Slide>
 
         {/* ───────────── CONSENT = FRIES ───────────── */}
@@ -335,17 +346,19 @@ export default function Page() {
           <p className="mb-6 opacity-80">
             {d.vacation.destinations[0].label} is favoriet ({d.vacation.destinations[0].count}×).
           </p>
-          <DotMap
-            points={d.vacation.destinations.map((c) => ({
-              label: c.label,
-              count: c.count,
-              coords: tuple(c.coords),
-            }))}
-            bounds={EU_BOUNDS}
-            accent="#35e0ff"
-            labelTop={10}
-            height={420}
-          />
+          <Zoomable accent="#35e0ff" className="max-w-2xl">
+            <DotMap
+              points={d.vacation.destinations.map((c) => ({
+                label: c.label,
+                count: c.count,
+                coords: tuple(c.coords),
+              }))}
+              bounds={EU_BOUNDS}
+              accent="#35e0ff"
+              labelTop={10}
+              height={420}
+            />
+          </Zoomable>
         </Slide>
 
         {/* ───────────── TIPS / OUTRO ───────────── */}
