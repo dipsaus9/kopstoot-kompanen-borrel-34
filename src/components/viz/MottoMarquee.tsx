@@ -53,9 +53,9 @@ export default function MottoMarquee({ mottos }: { mottos: Quote[] }) {
 
   return (
     <div className="flex w-full max-w-5xl flex-col gap-4">
-      <Row items={rows[0]} direction="left" duration={38} offset={0} />
-      <Row items={rows[1]} direction="right" duration={46} offset={2} />
-      <Row items={rows[2]} direction="left" duration={42} offset={4} />
+      <Row items={rows[0]} direction="left" duration={78} offset={0} />
+      <Row items={rows[1]} direction="right" duration={92} offset={2} />
+      <Row items={rows[2]} direction="left" duration={85} offset={4} />
     </div>
   );
 }
