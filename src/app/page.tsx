@@ -14,6 +14,7 @@ import WorldMap from "@/components/viz/WorldMap";
 import QuoteCarousel from "@/components/viz/QuoteCarousel";
 import QuoteWall from "@/components/viz/QuoteWall";
 import MemeQuiz from "@/components/viz/MemeQuiz";
+import TipsDeck from "@/components/viz/TipsDeck";
 
 const d = wrapped;
 const tuple = (c: number[]) => [c[0], c[1]] as [number, number];
@@ -387,10 +388,10 @@ export default function Page() {
           bg="radial-gradient(120% 120% at 50% 100%, #2a0a4a 0%, #0a0510 65%)"
           kicker="Tot slot"
           index={idx()}
-          className="!max-w-6xl"
         >
-          <h2 className="display mb-8 text-4xl sm:text-6xl">Nog even dit…</h2>
-          <QuoteWall quotes={d.tips.slice(0, 15)} accent="#c6ff3d" />
+          <h2 className="display mb-2 text-4xl sm:text-6xl">De kompanen-kaartenbak</h2>
+          <p className="mb-8 opacity-80">Weetjes, prangende vragen en pure onzin. Trek maar 'n kaartje.</p>
+          <TipsDeck tips={d.tips} accent="#c6ff3d" />
         </Slide>
 
         <Slide bg="radial-gradient(120% 120% at 50% 0%, #132b12 0%, #0a0510 60%)">
