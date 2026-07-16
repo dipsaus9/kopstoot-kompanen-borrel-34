@@ -220,11 +220,20 @@ const originStats = {
 };
 
 // ---- BORREL COUNT ----------------------------------------------------------
-const counts = records.map((r) => ({
-  name: firstName(r[C.NAME]),
-  ...parseCount(r[C.COUNT]),
-}));
-const realCounts = counts.filter((c) => c.n != null);
+// Sommigen vulden hier een grap in die als een echt aantal leest (Biko's 34
+// klopt, die van Jenny en Yvet niet). Alleen deze stat negeert ze; de rest van
+// hun antwoorden blijft overal gewoon staan.
+const COUNT_UNRELIABLE = [/^jenny$/i, /^yvet$/i];
+const counts = records.map((r) => {
+  const name = firstName(r[C.NAME]);
+  return {
+    name,
+    reliable: !COUNT_UNRELIABLE.some((re) => re.test(name)),
+    ...parseCount(r[C.COUNT]),
+  };
+});
+const realCounts = counts.filter((c) => c.n != null && c.reliable);
+const countIgnored = counts.filter((c) => !c.reliable).map((c) => `${c.name} (las als ${c.n})`);
 const countStats = {
   newbies: realCounts.filter((c) => c.n === 1).length,
   veterans: realCounts.filter((c) => c.n >= 10).length,
@@ -440,7 +449,8 @@ console.log(`  lengte: avg ${heightStats.avg}cm over ${adults.length} kompanen, 
 console.log(`  leeftijd: avg ${ageStats.avg}, oudste ${ageStats.oldest.name} ${ageStats.oldest.a}, jongste ${ageStats.youngest.name} ${ageStats.youngest.a}`);
 console.log(`  steden op kaart: ${originStats.cities.length}, top ${originStats.topCity?.city} (${originStats.topCity?.count})`);
 console.log(`  ongemapte steden: ${originStats.unmapped.join(", ") || "geen"}`);
-console.log(`  borrels: ${countStats.newbies} debuten, ${countStats.veterans} veteranen, totaal ${countStats.totalBorrelsAttended} borrels`);
+console.log(`  borrels: ${countStats.newbies} debuten, ${countStats.veterans} veteranen, totaal ${countStats.totalBorrelsAttended} borrels over ${realCounts.length} kompanen`);
+console.log(`  borrel-telling genegeerd (foutief ingevuld): ${countIgnored.join(", ") || "niemand"}`);
 console.log(`  komst: ${JSON.stringify(attendStats.buckets)}`);
 console.log(`  FRIES compleet: ${friesStats.fullFries}/${friesStats.total}`);
 console.log(`  bestemmingen: ${vacationStats.destinations.map((d) => `${d.label}(${d.count})`).join(", ")}`);
