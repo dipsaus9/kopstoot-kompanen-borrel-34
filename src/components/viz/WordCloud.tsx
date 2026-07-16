@@ -32,7 +32,7 @@ export default function WordCloud({
           }}
           initial={{ opacity: 0, scale: 0.6 }}
           whileInView={{ opacity: 0.55 + 0.45 * ((w.value - min) / (max - min || 1)), scale: 1 }}
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.5, delay: Math.min(i * 0.03, 0.8) }}
         >
           {w.text}

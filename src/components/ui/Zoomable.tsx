@@ -124,7 +124,7 @@ export default function Zoomable({
     const onWheelNative = (e: WheelEvent) => {
       const scale = tRef.current.scale;
       if (!e.ctrlKey && scale === 1) return;
-      e.preventDefault();
+      if (e.cancelable) e.preventDefault();
       const r = el.getBoundingClientRect();
       zoomAround(scale * (e.deltaY < 0 ? 1.12 : 1 / 1.12), e.clientX - r.left, e.clientY - r.top);
     };

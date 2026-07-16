@@ -52,7 +52,7 @@ export default function DotMap({
               strokeOpacity={0.18}
               initial={{ pathLength: 0 }}
               whileInView={{ pathLength: 1 }}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.8, delay: 0.03 * i }}
             />
           );
@@ -70,7 +70,7 @@ export default function DotMap({
               fillOpacity={0.85}
               initial={{ scale: 0, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 0.85 }}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.3 }}
               transition={{ type: "spring", stiffness: 240, damping: 18, delay: 0.03 * i }}
               style={{ transformOrigin: `${x}px ${y}px` }}
             />
@@ -84,7 +84,7 @@ export default function DotMap({
                 fontSize={13}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 0.95 }}
-                viewport={{ once: false, amount: 0.3 }}
+                viewport={{ once: true, amount: 0.3 }}
                 transition={{ delay: 0.03 * i + 0.2 }}
               >
                 {p.label}
