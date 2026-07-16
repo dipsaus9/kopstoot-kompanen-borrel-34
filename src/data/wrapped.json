@@ -4,12 +4,12 @@
     "title": "Borrel 34 Wrapped",
     "date": "vrijdag 17 juli 2026",
     "time": "15:00",
-    "respondents": 84,
+    "respondents": 86,
     "generatedNote": "Gemaakt door Dipsaus ✨"
   },
   "height": {
-    "count": 84,
-    "avgBasis": 83,
+    "count": 86,
+    "avgBasis": 85,
     "avg": 190,
     "avgAll": 189,
     "tallest": {
@@ -469,6 +469,16 @@
         "name": "Yvette",
         "h": 190,
         "grown": true
+      },
+      {
+        "name": "Marco",
+        "h": 200,
+        "grown": true
+      },
+      {
+        "name": "Lianne",
+        "h": 186,
+        "grown": true
       }
     ],
     "histogram": [
@@ -480,7 +490,7 @@
       {
         "bucket": 185,
         "label": "185–189",
-        "count": 18
+        "count": 19
       },
       {
         "bucket": 190,
@@ -495,7 +505,7 @@
       {
         "bucket": 200,
         "label": "200–204",
-        "count": 12
+        "count": 13
       },
       {
         "bucket": 210,
@@ -505,7 +515,7 @@
     ]
   },
   "age": {
-    "avgBasis": 83,
+    "avgBasis": 85,
     "avg": 28,
     "oldest": {
       "name": "Wout",
@@ -937,6 +947,16 @@
         "name": "Yvette",
         "a": 27,
         "grown": true
+      },
+      {
+        "name": "Marco",
+        "a": 30,
+        "grown": true
+      },
+      {
+        "name": "Lianne",
+        "a": 27,
+        "grown": true
       }
     ],
     "histogram": [
@@ -948,12 +968,12 @@
       {
         "bucket": 25,
         "label": "25–29",
-        "count": 44
+        "count": 45
       },
       {
         "bucket": 30,
         "label": "30–34",
-        "count": 7
+        "count": 8
       },
       {
         "bucket": 35,
@@ -976,7 +996,7 @@
     "cities": [
       {
         "city": "Utrecht",
-        "count": 12,
+        "count": 13,
         "coords": [
           5.12,
           52.09
@@ -1367,10 +1387,12 @@
         ]
       }
     ],
-    "unmapped": [],
+    "unmapped": [
+      "Zaandijk"
+    ],
     "topCity": {
       "city": "Utrecht",
-      "count": 12,
+      "count": 13,
       "coords": [
         5.12,
         52.09
@@ -1378,9 +1400,9 @@
     }
   },
   "count": {
-    "newbies": 26,
-    "veterans": 24,
-    "totalBorrelsAttended": 591,
+    "newbies": 27,
+    "veterans": 25,
+    "totalBorrelsAttended": 612,
     "mostExperienced": [
       {
         "name": "Biko",
@@ -1416,7 +1438,7 @@
     "distribution": [
       {
         "label": "1 (debuut)",
-        "count": 26
+        "count": 27
       },
       {
         "label": "2–5",
@@ -1428,7 +1450,7 @@
       },
       {
         "label": "11–20",
-        "count": 14
+        "count": 15
       },
       {
         "label": "21+",
@@ -1452,11 +1474,11 @@
       },
       {
         "label": "Verhinderd",
-        "count": 3
+        "count": 5
       }
     ],
     "yes": 60,
-    "total": 84
+    "total": 86
   },
   "dish": {
     "words": [
@@ -1466,7 +1488,7 @@
       },
       {
         "text": "risotto",
-        "value": 8
+        "value": 9
       },
       {
         "text": "curry",
@@ -1514,6 +1536,10 @@
       },
       {
         "text": "orzo",
+        "value": 3
+      },
+      {
+        "text": "worst",
         "value": 3
       },
       {
@@ -1613,10 +1639,6 @@
         "value": 2
       },
       {
-        "text": "worst",
-        "value": 2
-      },
-      {
         "text": "basilicum",
         "value": 2
       }
@@ -1628,7 +1650,7 @@
       },
       {
         "dish": "risotto",
-        "count": 9
+        "count": 10
       },
       {
         "dish": "curry",
@@ -1747,6 +1769,10 @@
         "value": 2
       },
       {
+        "text": "tequilaugurk",
+        "value": 2
+      },
+      {
         "text": "dus",
         "value": 2
       },
@@ -1812,10 +1838,6 @@
       },
       {
         "text": "tropische",
-        "value": 1
-      },
-      {
-        "text": "temperatuur",
         "value": 1
       }
     ]
@@ -2124,6 +2146,14 @@
     {
       "name": "Yvette",
       "text": "Kasten in elkaar zetten en smalland overnemen"
+    },
+    {
+      "name": "Marco",
+      "text": "Proberen of de showroom toiletten toch niet stiekem wel zijn aangesloten"
+    },
+    {
+      "name": "Lianne",
+      "text": "Zweedse ballen eten"
     }
   ],
   "memes": [
@@ -2430,6 +2460,14 @@
     {
       "name": "Yvette",
       "text": "BIEM!"
+    },
+    {
+      "name": "Marco",
+      "text": "Roooomiggg"
+    },
+    {
+      "name": "Lianne",
+      "text": "MIJN VERF"
     }
   ],
   "mottos": [
@@ -2760,6 +2798,14 @@
     {
       "name": "Yvette",
       "text": "Opgeven is geen optie"
+    },
+    {
+      "name": "Marco",
+      "text": "Yolo"
+    },
+    {
+      "name": "Lianne",
+      "text": "Liever dood dan moe"
     }
   ],
   "hacks": [
@@ -3074,6 +3120,14 @@
     {
       "name": "Yvette",
       "text": "Water met wasverzachter om je kleding op te frissen als je het nog niet écht moet wassen"
+    },
+    {
+      "name": "Marco",
+      "text": "Afwassen tijdens het koken"
+    },
+    {
+      "name": "Lianne",
+      "text": "Mensen uitnodigen dan voel je schoonmaakdruk"
     }
   ],
   "tips": [
@@ -3208,46 +3262,50 @@
     {
       "name": "Yvet",
       "text": "Als je een dikke tepel hebt maar kleine areola’s, heb je dan grote tepels? En als je dunne tepels hebt en hele grote areola’s, heb je dan ook grote tepels?"
+    },
+    {
+      "name": "Lianne",
+      "text": "Liefen mense"
     }
   ],
   "fries": {
     "parts": [
       {
         "label": "Freely given",
-        "count": 43
-      },
-      {
-        "label": "Reversible",
-        "count": 41
-      },
-      {
-        "label": "Informed",
-        "count": 43
-      },
-      {
-        "label": "Enthusiastic",
-        "count": 39
-      },
-      {
-        "label": "Specific",
         "count": 44
       },
       {
+        "label": "Reversible",
+        "count": 42
+      },
+      {
+        "label": "Informed",
+        "count": 45
+      },
+      {
+        "label": "Enthusiastic",
+        "count": 40
+      },
+      {
+        "label": "Specific",
+        "count": 45
+      },
+      {
         "label": "FRIES (patat!)",
-        "count": 68
+        "count": 69
       }
     ],
-    "fullFries": 34,
-    "total": 84
+    "fullFries": 35,
+    "total": 86
   },
   "handhaving": [
     {
       "label": "Rustig → verwijs naar borrelorgi",
-      "count": 51
+      "count": 52
     },
     {
       "label": "Recruiten als ze lang genoeg zijn",
-      "count": 33
+      "count": 34
     },
     {
       "label": "Vraag of ze op de groepsfoto willen",
@@ -3261,7 +3319,7 @@
   "waste": [
     {
       "label": "In de vuilniszakken (braaf)",
-      "count": 59
+      "count": 60
     },
     {
       "label": "In mijn broekzak als souvenir",
@@ -3269,7 +3327,7 @@
     },
     {
       "label": "Cadeautje voor Monica",
-      "count": 11
+      "count": 12
     },
     {
       "label": "Voeren aan de geiten",
@@ -3279,7 +3337,7 @@
   "pee": [
     {
       "label": "Openbare toiletten (braaf)",
-      "count": 63
+      "count": 64
     },
     {
       "label": "Luier om #lifehack",
@@ -3290,12 +3348,12 @@
       "count": 11
     },
     {
-      "label": "Sponsor gemeente €170",
+      "label": "In de bosjes",
       "count": 3
     },
     {
-      "label": "In de bosjes",
-      "count": 2
+      "label": "Sponsor gemeente €170",
+      "count": 3
     }
   ],
   "vacation": {
@@ -3730,6 +3788,14 @@
     {
       "name": "Yvette",
       "text": "Ik ken nog niemand, dus benieuwd om iedereen te leren kennen"
+    },
+    {
+      "name": "Marco",
+      "text": "Ik ken nog niemand"
+    },
+    {
+      "name": "Lianne",
+      "text": "Tjerry"
     }
   ],
   "miss": [
@@ -4000,6 +4066,14 @@
     {
       "name": "Yvet",
       "text": "Meid weet ik toch veel"
+    },
+    {
+      "name": "Marco",
+      "text": "Nog niemand"
+    },
+    {
+      "name": "Lianne",
+      "text": "Emma K"
     }
   ]
 }
