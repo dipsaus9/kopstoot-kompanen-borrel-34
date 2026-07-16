@@ -125,12 +125,9 @@ export default function Page() {
           <div className="display my-2 text-7xl sm:text-9xl" style={{ color: "#c6ff3d" }}>
             <CountUp to={d.height.avg} suffix=" cm" />
           </div>
-          <p className="mb-1 max-w-md opacity-80">
+          <p className="mb-8 max-w-md opacity-80">
             Het Nederlands gemiddelde is ~184 cm (man) / 170 cm (vrouw). Jullie torenen daar
             vrolijk bovenuit.
-          </p>
-          <p className="mb-8 text-xs opacity-50">
-            Over {d.height.avgBasis} kompanen · kabouters tellen niet mee
           </p>
           <Histogram bins={d.height.histogram} accent="#c6ff3d" />
           <div className="mt-8 flex gap-8">
@@ -159,9 +156,6 @@ export default function Page() {
           <div className="display my-2 text-7xl sm:text-9xl" style={{ color: "#ff3d81" }}>
             <CountUp to={d.age.avg} />
           </div>
-          <p className="mb-6 text-xs opacity-50">
-            Over {d.age.avgBasis} kompanen · kabouters tellen niet mee
-          </p>
           <Histogram bins={d.age.histogram} accent="#ff3d81" />
           <div className="mt-8 flex gap-8">
             <div>

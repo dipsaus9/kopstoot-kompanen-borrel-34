@@ -155,8 +155,10 @@ const kabouters = people
 const heights = people
   .filter((p) => Number.isFinite(p.h) && p.h > 0)
   .map((p) => ({ name: p.name, h: p.h, grown: p.grown }));
-const hSorted = [...heights].sort((a, b) => b.h - a.h);
 const adults = heights.filter((x) => x.grown);
+// tallest/shortest over dezelfde set als het gemiddelde, zodat de kabouters
+// ook niet als "kleinste kompaan" op de lengte-slide belanden
+const hSorted = [...adults].sort((a, b) => b.h - a.h);
 const heightStats = {
   count: heights.length,
   avgBasis: adults.length, // hoeveel kompanen zitten er in het gemiddelde
@@ -183,8 +185,9 @@ const heightStats = {
 const ages = people
   .filter((p) => Number.isFinite(p.a))
   .map((p) => ({ name: p.name, a: p.a, grown: p.grown }));
-const aSorted = [...ages].sort((a, b) => b.a - a.a);
 const grownAges = ages.filter((x) => x.grown);
+// idem: oudste/jongste over de volwassen set
+const aSorted = [...grownAges].sort((a, b) => b.a - a.a);
 const ageStats = {
   avgBasis: grownAges.length,
   avg: Math.round(grownAges.reduce((s, x) => s + x.a, 0) / grownAges.length),
