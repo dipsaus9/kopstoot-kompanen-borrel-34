@@ -103,7 +103,8 @@ export default function Page() {
             Wrapped
           </h1>
           <p className="mt-6 max-w-md text-base opacity-80 sm:text-lg">
-            {d.meta.respondents} lange mensen. {d.meta.date} vanaf {d.meta.time} in het park.
+            {d.meta.respondents} lange mensen. {d.meta.date} vanaf {d.meta.time} in het
+            Griftpark, Utrecht.
             Dit vulden jullie in.
           </p>
           <motion.div
@@ -401,7 +402,7 @@ export default function Page() {
             <span style={{ color: "#c6ff3d" }}>kompanen!</span>
           </h2>
           <p className="mt-6 opacity-80">
-            {d.meta.date} · {d.meta.time} · het park
+            {d.meta.date} · {d.meta.time} · Griftpark, Utrecht
           </p>
           <p className="mt-10 text-xs uppercase tracking-[0.3em] opacity-50">
             {d.meta.generatedNote}
