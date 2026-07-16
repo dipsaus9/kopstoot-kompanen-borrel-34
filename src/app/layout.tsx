@@ -9,14 +9,25 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
 });
 
+const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "http://localhost:3000";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Borrel 34 Wrapped",
   description:
     "De 34e editie van de Kopstoot Kompanen — de pre-borrel enquête, gewrapt. Lange mensen, gekke antwoorden.",
   openGraph: {
     title: "Borrel 34 Wrapped",
-    description: "Lange mensen, gekke antwoorden. Tot vrijdag 17 juli!",
+    description: "Lange mensen, gekke antwoorden. Tot vrijdag 17 juli in het Griftpark!",
     type: "website",
+    locale: "nl_NL",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Borrel 34 Wrapped",
+    description: "Lange mensen, gekke antwoorden. Tot vrijdag 17 juli in het Griftpark!",
   },
 };
 
