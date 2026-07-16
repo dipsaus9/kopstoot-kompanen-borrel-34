@@ -4,12 +4,12 @@
     "title": "Borrel 34 Wrapped",
     "date": "vrijdag 17 juli 2026",
     "time": "15:00",
-    "respondents": 86,
+    "respondents": 88,
     "generatedNote": "Gemaakt door Dipsaus ✨"
   },
   "height": {
-    "count": 86,
-    "avgBasis": 85,
+    "count": 88,
+    "avgBasis": 87,
     "avg": 190,
     "avgAll": 189,
     "tallest": {
@@ -479,6 +479,16 @@
         "name": "Lianne",
         "h": 186,
         "grown": true
+      },
+      {
+        "name": "Jan",
+        "h": 198,
+        "grown": true
+      },
+      {
+        "name": "Pater",
+        "h": 197,
+        "grown": true
       }
     ],
     "histogram": [
@@ -500,7 +510,7 @@
       {
         "bucket": 195,
         "label": "195–199",
-        "count": 16
+        "count": 18
       },
       {
         "bucket": 200,
@@ -515,7 +525,7 @@
     ]
   },
   "age": {
-    "avgBasis": 85,
+    "avgBasis": 87,
     "avg": 28,
     "oldest": {
       "name": "Wout",
@@ -957,6 +967,16 @@
         "name": "Lianne",
         "a": 27,
         "grown": true
+      },
+      {
+        "name": "Jan",
+        "a": 27,
+        "grown": true
+      },
+      {
+        "name": "Pater",
+        "a": 32,
+        "grown": true
       }
     ],
     "histogram": [
@@ -968,12 +988,12 @@
       {
         "bucket": 25,
         "label": "25–29",
-        "count": 45
+        "count": 46
       },
       {
         "bucket": 30,
         "label": "30–34",
-        "count": 8
+        "count": 9
       },
       {
         "bucket": 35,
@@ -996,7 +1016,7 @@
     "cities": [
       {
         "city": "Utrecht",
-        "count": 13,
+        "count": 14,
         "coords": [
           5.12,
           52.09
@@ -1104,6 +1124,14 @@
         "coords": [
           5.22,
           51.71
+        ]
+      },
+      {
+        "city": "Amersfoort",
+        "count": 2,
+        "coords": [
+          5.39,
+          52.16
         ]
       },
       {
@@ -1323,14 +1351,6 @@
         ]
       },
       {
-        "city": "Amersfoort",
-        "count": 1,
-        "coords": [
-          5.39,
-          52.16
-        ]
-      },
-      {
         "city": "Alblasserdam",
         "count": 1,
         "coords": [
@@ -1392,7 +1412,7 @@
     ],
     "topCity": {
       "city": "Utrecht",
-      "count": 13,
+      "count": 14,
       "coords": [
         5.12,
         52.09
@@ -1400,9 +1420,9 @@
     }
   },
   "count": {
-    "newbies": 27,
-    "veterans": 25,
-    "totalBorrelsAttended": 612,
+    "newbies": 28,
+    "veterans": 26,
+    "totalBorrelsAttended": 628,
     "mostExperienced": [
       {
         "name": "Biko",
@@ -1438,7 +1458,7 @@
     "distribution": [
       {
         "label": "1 (debuut)",
-        "count": 27
+        "count": 28
       },
       {
         "label": "2–5",
@@ -1450,7 +1470,7 @@
       },
       {
         "label": "11–20",
-        "count": 15
+        "count": 16
       },
       {
         "label": "21+",
@@ -1462,7 +1482,7 @@
     "buckets": [
       {
         "label": "Kleedje ligt klaar",
-        "count": 60
+        "count": 62
       },
       {
         "label": "In onderhandeling",
@@ -1477,8 +1497,8 @@
         "count": 5
       }
     ],
-    "yes": 60,
-    "total": 86
+    "yes": 62,
+    "total": 88
   },
   "dish": {
     "words": [
@@ -1488,18 +1508,18 @@
       },
       {
         "text": "risotto",
-        "value": 9
+        "value": 10
       },
       {
         "text": "curry",
         "value": 6
       },
       {
-        "text": "vega",
-        "value": 5
+        "text": "lasagne",
+        "value": 6
       },
       {
-        "text": "lasagne",
+        "text": "vega",
         "value": 5
       },
       {
@@ -1639,7 +1659,7 @@
         "value": 2
       },
       {
-        "text": "basilicum",
+        "text": "venkel",
         "value": 2
       }
     ],
@@ -1650,7 +1670,7 @@
       },
       {
         "dish": "risotto",
-        "count": 10
+        "count": 11
       },
       {
         "dish": "curry",
@@ -1658,7 +1678,7 @@
       },
       {
         "dish": "lasagne",
-        "count": 5
+        "count": 6
       },
       {
         "dish": "salade",
@@ -1689,15 +1709,15 @@
         "value": 5
       },
       {
+        "text": "salmari",
+        "value": 5
+      },
+      {
         "text": "kurkentrekker",
         "value": 4
       },
       {
         "text": "augurken",
-        "value": 4
-      },
-      {
-        "text": "salmari",
         "value": 4
       },
       {
@@ -2154,6 +2174,14 @@
     {
       "name": "Lianne",
       "text": "Zweedse ballen eten"
+    },
+    {
+      "name": "Jan",
+      "text": "Alle matrassen uit pakken en een gigantisch fort bouwen om in te slapen"
+    },
+    {
+      "name": "Pater",
+      "text": "Koffie automaat"
     }
   ],
   "memes": [
@@ -2468,6 +2496,10 @@
     {
       "name": "Lianne",
       "text": "MIJN VERF"
+    },
+    {
+      "name": "Jan",
+      "text": "Ik dacht het van _niet_. ehmm meneer."
     }
   ],
   "mottos": [
@@ -2806,6 +2838,14 @@
     {
       "name": "Lianne",
       "text": "Liever dood dan moe"
+    },
+    {
+      "name": "Jan",
+      "text": "Kommst du wieder mit zum fest? Sorry, bin auf sidequest"
+    },
+    {
+      "name": "Pater",
+      "text": "Oost-indisch doof"
     }
   ],
   "hacks": [
@@ -3128,6 +3168,10 @@
     {
       "name": "Lianne",
       "text": "Mensen uitnodigen dan voel je schoonmaakdruk"
+    },
+    {
+      "name": "Jan",
+      "text": "Zieke hack maar als je dus regelmatig schoonmaakt blijft je huis schoon"
     }
   ],
   "tips": [
@@ -3266,37 +3310,41 @@
     {
       "name": "Lianne",
       "text": "Liefen mense"
+    },
+    {
+      "name": "Jan",
+      "text": "Elke 60 seconden in afrika gaat er een minuut voorbij 🙏"
     }
   ],
   "fries": {
     "parts": [
       {
         "label": "Freely given",
-        "count": 44
+        "count": 45
       },
       {
         "label": "Reversible",
-        "count": 42
+        "count": 43
       },
       {
         "label": "Informed",
-        "count": 45
+        "count": 46
       },
       {
         "label": "Enthusiastic",
-        "count": 40
+        "count": 41
       },
       {
         "label": "Specific",
-        "count": 45
+        "count": 46
       },
       {
         "label": "FRIES (patat!)",
-        "count": 69
+        "count": 71
       }
     ],
-    "fullFries": 35,
-    "total": 86
+    "fullFries": 36,
+    "total": 88
   },
   "handhaving": [
     {
@@ -3305,7 +3353,7 @@
     },
     {
       "label": "Recruiten als ze lang genoeg zijn",
-      "count": 34
+      "count": 36
     },
     {
       "label": "Vraag of ze op de groepsfoto willen",
@@ -3319,7 +3367,7 @@
   "waste": [
     {
       "label": "In de vuilniszakken (braaf)",
-      "count": 60
+      "count": 62
     },
     {
       "label": "In mijn broekzak als souvenir",
@@ -3337,7 +3385,7 @@
   "pee": [
     {
       "label": "Openbare toiletten (braaf)",
-      "count": 64
+      "count": 66
     },
     {
       "label": "Luier om #lifehack",
@@ -3391,20 +3439,20 @@
         "count": 5
       },
       {
+        "label": "Schotland / UK",
+        "coords": [
+          -3.2,
+          55.9
+        ],
+        "count": 5
+      },
+      {
         "label": "Scandinavië",
         "coords": [
           15,
           60
         ],
         "count": 5
-      },
-      {
-        "label": "Schotland / UK",
-        "coords": [
-          -3.2,
-          55.9
-        ],
-        "count": 4
       },
       {
         "label": "Azië",
@@ -3796,6 +3844,14 @@
     {
       "name": "Lianne",
       "text": "Tjerry"
+    },
+    {
+      "name": "Jan",
+      "text": "Allemaal drerries"
+    },
+    {
+      "name": "Pater",
+      "text": "Daar moet ik nog kennis mee maken"
     }
   ],
   "miss": [
@@ -4074,6 +4130,10 @@
     {
       "name": "Lianne",
       "text": "Emma K"
+    },
+    {
+      "name": "Jan",
+      "text": "Uit het oog uit het hart 💔 kom gewoon"
     }
   ]
 }
