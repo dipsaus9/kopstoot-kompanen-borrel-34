@@ -4,12 +4,12 @@
     "title": "Borrel 34 Wrapped",
     "date": "vrijdag 17 juli 2026",
     "time": "15:00",
-    "respondents": 88,
+    "respondents": 91,
     "generatedNote": "Gemaakt door Dipsaus ✨"
   },
   "height": {
-    "count": 88,
-    "avgBasis": 87,
+    "count": 91,
+    "avgBasis": 90,
     "avg": 190,
     "avgAll": 189,
     "tallest": {
@@ -141,6 +141,11 @@
         "grown": true
       },
       {
+        "name": "Eef",
+        "h": 189,
+        "grown": true
+      },
+      {
         "name": "Emma",
         "h": 183,
         "grown": true
@@ -203,6 +208,11 @@
       {
         "name": "Ivo",
         "h": 200,
+        "grown": true
+      },
+      {
+        "name": "Jan",
+        "h": 198,
         "grown": true
       },
       {
@@ -271,6 +281,11 @@
         "grown": true
       },
       {
+        "name": "Lianne",
+        "h": 186,
+        "grown": true
+      },
+      {
         "name": "Liza",
         "h": 183,
         "grown": true
@@ -289,6 +304,11 @@
         "name": "Maas",
         "h": 95,
         "grown": false
+      },
+      {
+        "name": "Marco",
+        "h": 200,
+        "grown": true
       },
       {
         "name": "Marieke",
@@ -358,6 +378,11 @@
       {
         "name": "Nikita",
         "h": 185,
+        "grown": true
+      },
+      {
+        "name": "Pater",
+        "h": 197,
         "grown": true
       },
       {
@@ -471,23 +496,13 @@
         "grown": true
       },
       {
-        "name": "Marco",
-        "h": 200,
+        "name": "Lisaaaa",
+        "h": 185,
         "grown": true
       },
       {
-        "name": "Lianne",
-        "h": 186,
-        "grown": true
-      },
-      {
-        "name": "Jan",
-        "h": 198,
-        "grown": true
-      },
-      {
-        "name": "Pater",
-        "h": 197,
+        "name": "Roeland",
+        "h": 195,
         "grown": true
       }
     ],
@@ -500,7 +515,7 @@
       {
         "bucket": 185,
         "label": "185–189",
-        "count": 19
+        "count": 21
       },
       {
         "bucket": 190,
@@ -510,7 +525,7 @@
       {
         "bucket": 195,
         "label": "195–199",
-        "count": 18
+        "count": 19
       },
       {
         "bucket": 200,
@@ -525,7 +540,7 @@
     ]
   },
   "age": {
-    "avgBasis": 87,
+    "avgBasis": 90,
     "avg": 28,
     "oldest": {
       "name": "Wout",
@@ -629,6 +644,11 @@
         "grown": true
       },
       {
+        "name": "Eef",
+        "a": 32,
+        "grown": true
+      },
+      {
         "name": "Emma",
         "a": 27,
         "grown": true
@@ -691,6 +711,11 @@
       {
         "name": "Ivo",
         "a": 47,
+        "grown": true
+      },
+      {
+        "name": "Jan",
+        "a": 27,
         "grown": true
       },
       {
@@ -759,6 +784,11 @@
         "grown": true
       },
       {
+        "name": "Lianne",
+        "a": 27,
+        "grown": true
+      },
+      {
         "name": "Liza",
         "a": 32,
         "grown": true
@@ -777,6 +807,11 @@
         "name": "Maas",
         "a": 1,
         "grown": false
+      },
+      {
+        "name": "Marco",
+        "a": 30,
+        "grown": true
       },
       {
         "name": "Marieke",
@@ -846,6 +881,11 @@
       {
         "name": "Nikita",
         "a": 24,
+        "grown": true
+      },
+      {
+        "name": "Pater",
+        "a": 32,
         "grown": true
       },
       {
@@ -959,23 +999,13 @@
         "grown": true
       },
       {
-        "name": "Marco",
+        "name": "Lisaaaa",
+        "a": 33,
+        "grown": true
+      },
+      {
+        "name": "Roeland",
         "a": 30,
-        "grown": true
-      },
-      {
-        "name": "Lianne",
-        "a": 27,
-        "grown": true
-      },
-      {
-        "name": "Jan",
-        "a": 27,
-        "grown": true
-      },
-      {
-        "name": "Pater",
-        "a": 32,
         "grown": true
       }
     ],
@@ -993,7 +1023,7 @@
       {
         "bucket": 30,
         "label": "30–34",
-        "count": 9
+        "count": 12
       },
       {
         "bucket": 35,
@@ -1024,7 +1054,7 @@
       },
       {
         "city": "Nijmegen",
-        "count": 6,
+        "count": 7,
         "coords": [
           5.86,
           51.84
@@ -1068,6 +1098,14 @@
         "coords": [
           4.4,
           52.09
+        ]
+      },
+      {
+        "city": "Oss",
+        "count": 2,
+        "coords": [
+          5.53,
+          51.77
         ]
       },
       {
@@ -1255,14 +1293,6 @@
         ]
       },
       {
-        "city": "Oss",
-        "count": 1,
-        "coords": [
-          5.53,
-          51.77
-        ]
-      },
-      {
         "city": "Voorhout",
         "count": 1,
         "coords": [
@@ -1408,7 +1438,8 @@
       }
     ],
     "unmapped": [
-      "Zaandijk"
+      "Zaandijk",
+      "Wognum"
     ],
     "topCity": {
       "city": "Utrecht",
@@ -1421,8 +1452,8 @@
   },
   "count": {
     "newbies": 28,
-    "veterans": 26,
-    "totalBorrelsAttended": 628,
+    "veterans": 28,
+    "totalBorrelsAttended": 661,
     "mostExperienced": [
       {
         "name": "Biko",
@@ -1462,7 +1493,7 @@
       },
       {
         "label": "2–5",
-        "count": 24
+        "count": 25
       },
       {
         "label": "6–10",
@@ -1470,7 +1501,7 @@
       },
       {
         "label": "11–20",
-        "count": 16
+        "count": 18
       },
       {
         "label": "21+",
@@ -1482,11 +1513,11 @@
     "buckets": [
       {
         "label": "Kleedje ligt klaar",
-        "count": 62
+        "count": 64
       },
       {
         "label": "In onderhandeling",
-        "count": 17
+        "count": 18
       },
       {
         "label": "Twijfelgeval",
@@ -1497,8 +1528,8 @@
         "count": 5
       }
     ],
-    "yes": 62,
-    "total": 88
+    "yes": 64,
+    "total": 91
   },
   "dish": {
     "words": [
@@ -1511,11 +1542,11 @@
         "value": 10
       },
       {
-        "text": "curry",
-        "value": 6
+        "text": "lasagne",
+        "value": 7
       },
       {
-        "text": "lasagne",
+        "text": "curry",
         "value": 6
       },
       {
@@ -1651,33 +1682,33 @@
         "value": 2
       },
       {
+        "text": "venkel",
+        "value": 2
+      },
+      {
         "text": "gehaktballen",
         "value": 2
       },
       {
         "text": "lekker",
         "value": 2
-      },
-      {
-        "text": "venkel",
-        "value": 2
       }
     ],
     "tally": [
       {
         "dish": "pasta",
-        "count": 17
+        "count": 18
       },
       {
         "dish": "risotto",
         "count": 11
       },
       {
-        "dish": "curry",
-        "count": 6
+        "dish": "lasagne",
+        "count": 7
       },
       {
-        "dish": "lasagne",
+        "dish": "curry",
         "count": 6
       },
       {
@@ -1705,6 +1736,10 @@
         "value": 7
       },
       {
+        "text": "kurkentrekker",
+        "value": 5
+      },
+      {
         "text": "zonnebrand",
         "value": 5
       },
@@ -1713,11 +1748,11 @@
         "value": 5
       },
       {
-        "text": "kurkentrekker",
+        "text": "augurken",
         "value": 4
       },
       {
-        "text": "augurken",
+        "text": "weer",
         "value": 4
       },
       {
@@ -1734,10 +1769,6 @@
       },
       {
         "text": "tequila",
-        "value": 3
-      },
-      {
-        "text": "weer",
         "value": 3
       },
       {
@@ -1976,6 +2007,10 @@
       "text": "De lange bedden uitproberen"
     },
     {
+      "name": "Jan",
+      "text": "Alle matrassen uit pakken en een gigantisch fort bouwen om in te slapen"
+    },
+    {
       "name": "Jay",
       "text": "Ervan genieten om is een keer groot te wonen"
     },
@@ -2020,6 +2055,10 @@
       "text": "De ballenbak induiken!"
     },
     {
+      "name": "Lianne",
+      "text": "Zweedse ballen eten"
+    },
+    {
       "name": "Liza",
       "text": "Hopen dat het alarm niet afgaat"
     },
@@ -2034,6 +2073,10 @@
     {
       "name": "Maas",
       "text": "Spelen in Smalland!"
+    },
+    {
+      "name": "Marco",
+      "text": "Proberen of de showroom toiletten toch niet stiekem wel zijn aangesloten"
     },
     {
       "name": "Marieke",
@@ -2086,6 +2129,10 @@
     {
       "name": "Nikita",
       "text": "Een snackproeverij"
+    },
+    {
+      "name": "Pater",
+      "text": "Koffie automaat"
     },
     {
       "name": "Rebecca",
@@ -2168,20 +2215,12 @@
       "text": "Kasten in elkaar zetten en smalland overnemen"
     },
     {
-      "name": "Marco",
-      "text": "Proberen of de showroom toiletten toch niet stiekem wel zijn aangesloten"
+      "name": "Lisaaaa",
+      "text": "Op alle bedden springen en rollen"
     },
     {
-      "name": "Lianne",
-      "text": "Zweedse ballen eten"
-    },
-    {
-      "name": "Jan",
-      "text": "Alle matrassen uit pakken en een gigantisch fort bouwen om in te slapen"
-    },
-    {
-      "name": "Pater",
-      "text": "Koffie automaat"
+      "name": "Roeland",
+      "text": "Naar het magazijn gaan en random kasten in elkaar gaan zetten."
     }
   ],
   "memes": [
@@ -2250,6 +2289,10 @@
       "text": "Free shavacado"
     },
     {
+      "name": "Eef",
+      "text": "Okayyy lets goooooooooo"
+    },
+    {
       "name": "Emma",
       "text": "HEET JIJ ECHT ZO"
     },
@@ -2296,6 +2339,10 @@
     {
       "name": "Ivo",
       "text": "The Vinkingrow sowieso"
+    },
+    {
+      "name": "Jan",
+      "text": "Ik dacht het van _niet_. ehmm meneer."
     },
     {
       "name": "Jay",
@@ -2350,6 +2397,10 @@
       "text": "Brother ewwww"
     },
     {
+      "name": "Lianne",
+      "text": "MIJN VERF"
+    },
+    {
       "name": "Liza",
       "text": "Dus jij wilt 10.000 lenen? Mag niet. (Mastermovies)"
     },
@@ -2364,6 +2415,10 @@
     {
       "name": "Maas",
       "text": "Treinen zijn mijn memes"
+    },
+    {
+      "name": "Marco",
+      "text": "Roooomiggg"
     },
     {
       "name": "Marieke",
@@ -2490,16 +2545,12 @@
       "text": "BIEM!"
     },
     {
-      "name": "Marco",
-      "text": "Roooomiggg"
+      "name": "Lisaaaa",
+      "text": "Geen inspiratie"
     },
     {
-      "name": "Lianne",
-      "text": "MIJN VERF"
-    },
-    {
-      "name": "Jan",
-      "text": "Ik dacht het van _niet_. ehmm meneer."
+      "name": "Roeland",
+      "text": "Blikje in de water"
     }
   ],
   "mottos": [
@@ -2572,6 +2623,10 @@
       "text": "Gewoon doen, ookal ben je bang. Je krijgt spijt als je het niet doet"
     },
     {
+      "name": "Eef",
+      "text": "Behandel anderen zoals je zelf ook behandeld wilt worden"
+    },
+    {
       "name": "Emma",
       "text": "Het beste scenario bestaat óók."
     },
@@ -2618,6 +2673,10 @@
     {
       "name": "Ivo",
       "text": "Ik verzamel leuke mensen om mij heen!"
+    },
+    {
+      "name": "Jan",
+      "text": "Kommst du wieder mit zum fest? Sorry, bin auf sidequest"
     },
     {
       "name": "Jay",
@@ -2672,6 +2731,10 @@
       "text": "Kleine moeite, groot plezier♡"
     },
     {
+      "name": "Lianne",
+      "text": "Liever dood dan moe"
+    },
+    {
       "name": "Liza",
       "text": "Be curious, not judgemental"
     },
@@ -2686,6 +2749,10 @@
     {
       "name": "Maas",
       "text": "“Geef me eten”"
+    },
+    {
+      "name": "Marco",
+      "text": "Yolo"
     },
     {
       "name": "Marieke",
@@ -2742,6 +2809,10 @@
     {
       "name": "Nikita",
       "text": "Alles komt goed"
+    },
+    {
+      "name": "Pater",
+      "text": "Oost-indisch doof"
     },
     {
       "name": "Rebecca",
@@ -2832,20 +2903,12 @@
       "text": "Opgeven is geen optie"
     },
     {
-      "name": "Marco",
-      "text": "Yolo"
+      "name": "Lisaaaa",
+      "text": "Alles is wat je ervan maakt"
     },
     {
-      "name": "Lianne",
-      "text": "Liever dood dan moe"
-    },
-    {
-      "name": "Jan",
-      "text": "Kommst du wieder mit zum fest? Sorry, bin auf sidequest"
-    },
-    {
-      "name": "Pater",
-      "text": "Oost-indisch doof"
+      "name": "Roeland",
+      "text": "Je groeit alleen aan de randen van je comfortzone"
     }
   ],
   "hacks": [
@@ -2922,6 +2985,10 @@
       "text": "Ik hoor graag tips"
     },
     {
+      "name": "Eef",
+      "text": "Heb geen huis dan hoef je het ook niet te houden"
+    },
+    {
       "name": "Emma",
       "text": "Nodig visite uit. Ineens is je huis in een uur brandschoon 🥸"
     },
@@ -2964,6 +3031,10 @@
     {
       "name": "Ivo",
       "text": "De bovenkant van de keukenkastjes makkelijk kunnen schoonmaken"
+    },
+    {
+      "name": "Jan",
+      "text": "Zieke hack maar als je dus regelmatig schoonmaakt blijft je huis schoon"
     },
     {
       "name": "Jay",
@@ -3018,6 +3089,10 @@
       "text": "Schoonmak(st)er inhuren✌🏻"
     },
     {
+      "name": "Lianne",
+      "text": "Mensen uitnodigen dan voel je schoonmaakdruk"
+    },
+    {
       "name": "Liza",
       "text": "Uh als je vlees en kip enz invriest dan kan je het heel makkelijk heel dun snijden! En als je gember invriest kan je het makkelijk raspen zonder vezel troep :D"
     },
@@ -3028,6 +3103,10 @@
     {
       "name": "Maas",
       "text": "Naar papa of mama rennen en dan heel hard BAH schreeuwen, dan wordt het vanzelf schoon."
+    },
+    {
+      "name": "Marco",
+      "text": "Afwassen tijdens het koken"
     },
     {
       "name": "Marieke",
@@ -3162,16 +3241,12 @@
       "text": "Water met wasverzachter om je kleding op te frissen als je het nog niet écht moet wassen"
     },
     {
-      "name": "Marco",
-      "text": "Afwassen tijdens het koken"
+      "name": "Lisaaaa",
+      "text": "Baking sodaaaa voor alles"
     },
     {
-      "name": "Lianne",
-      "text": "Mensen uitnodigen dan voel je schoonmaakdruk"
-    },
-    {
-      "name": "Jan",
-      "text": "Zieke hack maar als je dus regelmatig schoonmaakt blijft je huis schoon"
+      "name": "Roeland",
+      "text": "Zoutzuur lost veel op"
     }
   ],
   "tips": [
@@ -3200,6 +3275,10 @@
       "text": "Spoon is a species of bowl"
     },
     {
+      "name": "Eef",
+      "text": "Houdoe en bedankt"
+    },
+    {
       "name": "Floor",
       "text": "Ik wil mijn spreekbeurt graag houden over de cavia die ik nooit gehad heb."
     },
@@ -3220,6 +3299,10 @@
       "text": "Geen idee, mijn basketbal ligt achterin mijn auto"
     },
     {
+      "name": "Jan",
+      "text": "Elke 60 seconden in afrika gaat er een minuut voorbij 🙏"
+    },
+    {
       "name": "Jolie",
       "text": "Sli sla slay"
     },
@@ -3234,6 +3317,10 @@
     {
       "name": "Kiwi",
       "text": "Is 25 graden warm genoeg voor een bikini borrel?"
+    },
+    {
+      "name": "Lianne",
+      "text": "Liefen mense"
     },
     {
       "name": "Lyn",
@@ -3306,50 +3393,42 @@
     {
       "name": "Yvet",
       "text": "Als je een dikke tepel hebt maar kleine areola’s, heb je dan grote tepels? En als je dunne tepels hebt en hele grote areola’s, heb je dan ook grote tepels?"
-    },
-    {
-      "name": "Lianne",
-      "text": "Liefen mense"
-    },
-    {
-      "name": "Jan",
-      "text": "Elke 60 seconden in afrika gaat er een minuut voorbij 🙏"
     }
   ],
   "fries": {
     "parts": [
       {
         "label": "Freely given",
-        "count": 45
+        "count": 47
       },
       {
         "label": "Reversible",
-        "count": 43
+        "count": 45
       },
       {
         "label": "Informed",
-        "count": 46
+        "count": 48
       },
       {
         "label": "Enthusiastic",
-        "count": 41
+        "count": 43
       },
       {
         "label": "Specific",
-        "count": 46
+        "count": 48
       },
       {
         "label": "FRIES (patat!)",
-        "count": 71
+        "count": 73
       }
     ],
-    "fullFries": 36,
-    "total": 88
+    "fullFries": 37,
+    "total": 91
   },
   "handhaving": [
     {
       "label": "Rustig → verwijs naar borrelorgi",
-      "count": 52
+      "count": 55
     },
     {
       "label": "Recruiten als ze lang genoeg zijn",
@@ -3367,7 +3446,7 @@
   "waste": [
     {
       "label": "In de vuilniszakken (braaf)",
-      "count": 62
+      "count": 64
     },
     {
       "label": "In mijn broekzak als souvenir",
@@ -3375,7 +3454,7 @@
     },
     {
       "label": "Cadeautje voor Monica",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Voeren aan de geiten",
@@ -3385,7 +3464,7 @@
   "pee": [
     {
       "label": "Openbare toiletten (braaf)",
-      "count": 66
+      "count": 69
     },
     {
       "label": "Luier om #lifehack",
@@ -3436,7 +3515,7 @@
           10.4,
           51.1
         ],
-        "count": 5
+        "count": 6
       },
       {
         "label": "Schotland / UK",
@@ -3602,6 +3681,10 @@
       "text": "Allemaal"
     },
     {
+      "name": "Eef",
+      "text": "Iedereen"
+    },
+    {
       "name": "Emma",
       "text": "Ik vind het leuk dat Thijmen weer komt!!!"
     },
@@ -3648,6 +3731,10 @@
     {
       "name": "Ivo",
       "text": "Iedereen natuurlijk"
+    },
+    {
+      "name": "Jan",
+      "text": "Allemaal drerries"
     },
     {
       "name": "Jay",
@@ -3698,6 +3785,10 @@
       "text": "Liquicity gang, Quirine, Averechts, Tjerry, EmmaVanDeSingles, de Maiden, Sonny, nog veeuuuulllll meer!"
     },
     {
+      "name": "Lianne",
+      "text": "Tjerry"
+    },
+    {
       "name": "Lonneke",
       "text": "Nikita"
     },
@@ -3708,6 +3799,10 @@
     {
       "name": "Maas",
       "text": "Papa, mama en al mijn tantes!"
+    },
+    {
+      "name": "Marco",
+      "text": "Ik ken nog niemand"
     },
     {
       "name": "Marieke",
@@ -3756,6 +3851,10 @@
     {
       "name": "Mirrin",
       "text": "Jan!!! Ik heb een cadeautje voor ‘m 🤫"
+    },
+    {
+      "name": "Pater",
+      "text": "Daar moet ik nog kennis mee maken"
     },
     {
       "name": "Rebecca",
@@ -3838,20 +3937,12 @@
       "text": "Ik ken nog niemand, dus benieuwd om iedereen te leren kennen"
     },
     {
-      "name": "Marco",
-      "text": "Ik ken nog niemand"
+      "name": "Lisaaaa",
+      "text": "Yvetjekadetjeeee"
     },
     {
-      "name": "Lianne",
-      "text": "Tjerry"
-    },
-    {
-      "name": "Jan",
-      "text": "Allemaal drerries"
-    },
-    {
-      "name": "Pater",
-      "text": "Daar moet ik nog kennis mee maken"
+      "name": "Roeland",
+      "text": "De meeste"
     }
   ],
   "miss": [
@@ -3924,6 +4015,10 @@
       "text": "Degene die niet komen"
     },
     {
+      "name": "Eef",
+      "text": "Iedereen (als ik er niet ben)"
+    },
+    {
       "name": "Emma",
       "text": "Babe Ryry :("
     },
@@ -3964,6 +4059,10 @@
       "text": "Geen idee, ik ben pas 2 keer geweest"
     },
     {
+      "name": "Jan",
+      "text": "Uit het oog uit het hart 💔 kom gewoon"
+    },
+    {
       "name": "Jay",
       "text": "Anouk"
     },
@@ -3996,6 +4095,10 @@
       "text": "Niet alleen afwezige kompanen maar ook de aanwezige die ik alsnog niet spreek"
     },
     {
+      "name": "Lianne",
+      "text": "Emma K"
+    },
+    {
       "name": "Lonneke",
       "text": "Anouk"
     },
@@ -4006,6 +4109,10 @@
     {
       "name": "Maas",
       "text": "Waar zijn Joya en Lynthe?? Ik wil een kabouter kompanen groep"
+    },
+    {
+      "name": "Marco",
+      "text": "Nog niemand"
     },
     {
       "name": "Marieke",
@@ -4124,16 +4231,8 @@
       "text": "Meid weet ik toch veel"
     },
     {
-      "name": "Marco",
-      "text": "Nog niemand"
-    },
-    {
-      "name": "Lianne",
-      "text": "Emma K"
-    },
-    {
-      "name": "Jan",
-      "text": "Uit het oog uit het hart 💔 kom gewoon"
+      "name": "Roeland",
+      "text": "Rick Ashly"
     }
   ]
 }
